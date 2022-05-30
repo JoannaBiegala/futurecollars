@@ -1,11 +1,9 @@
 package com.futurecollars.lesson7;
 
-public class TicketSeller extends BaseEmployee{
-    private static final int basicSalaryValue = 3000;
+public class TicketSeller extends BaseEmployee {
 
     public TicketSeller(String firstName, String lastName, int yearOfEmployment) {
         super(firstName, lastName, yearOfEmployment);
-        this.basicSalary = basicSalaryValue;
     }
 
     public TicketSeller(String firstName, String lastName, int basicSalary, int yearOfEmployment) {
@@ -15,8 +13,16 @@ public class TicketSeller extends BaseEmployee{
 
     @Override
     public int calculateMonthlySalary() {
-        return super.calculateMonthlySalary();
+        return this.getBasicSalary();
     }
 
-
+    @Override
+    public String toString() {
+        return "TicketSeller{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", basicSalary=" + basicSalary +
+                ", yearOfEmployment=" + yearOfEmployment +
+                '}';
+    }
 }

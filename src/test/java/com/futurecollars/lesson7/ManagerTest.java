@@ -9,17 +9,17 @@ class ManagerTest {
     @Test
     void calculateMonthlySalary() {
         //given
-        String firsNameManager = "Marek";
+        String firstNameManager = "Marek";
         String lastNameManager = "Kwiatkowski";
         int basicSalaryManager = 7000;
-        int yearOfEmploymentManager  = 2020;
+        int yearOfEmploymentManager = 2020;
 
         //when
-        Manager manager = new Manager(firsNameManager,lastNameManager,basicSalaryManager,yearOfEmploymentManager);
+        Manager manager = new Manager(firstNameManager, lastNameManager, basicSalaryManager, yearOfEmploymentManager);
         int monthSalary = manager.calculateMonthlySalary();
 
         //then
-        assertEquals(19000,monthSalary);
+        assertEquals(7500, monthSalary);
 
     }
 }

@@ -1,29 +1,29 @@
 package com.futurecollars.lesson7;
 
-public class Manager extends BaseEmployee{
+public class Manager extends BaseEmployee {
 
-    private static final int basicSalaryManagerValue = 5000;
-    private static final int bonusValue = 500;
+    private static final int defaultBasicSalaryManager = 5000;
+    private static final int defaultBonus = 500;
 
 
     private int bonus;
 
     public Manager(String firstName, String lastName, int yearOfEmployment) {
         super(firstName, lastName, yearOfEmployment);
-        this.basicSalary = basicSalaryManagerValue;
-        this.bonus = bonusValue;
+        this.basicSalary = defaultBasicSalaryManager;
+        this.bonus = defaultBonus;
     }
 
     public Manager(String firstName, String lastName, int basicSalary, int yearOfEmployment) {
         super(firstName, lastName, basicSalary, yearOfEmployment);
-        this.bonus = bonusValue;
+        this.bonus = defaultBonus;
 
     }
 
     public Manager(String firstName, String lastName, int basicSalary, int yearOfEmployment, int bonus) {
         super(firstName, lastName, basicSalary, yearOfEmployment);
         this.bonus = bonus;
-     }
+    }
 
     public int getBonus() {
         return bonus;
@@ -36,8 +36,7 @@ public class Manager extends BaseEmployee{
 
     @Override
     public int calculateMonthlySalary() {
-        int receivedBonuses = 12 * getYearsOfWork() * getBonus();
-        return getBasicSalary() + receivedBonuses;
+        return getBasicSalary() + getBonus();
     }
 
     @Override
