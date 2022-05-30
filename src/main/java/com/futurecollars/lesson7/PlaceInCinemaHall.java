@@ -1,11 +1,11 @@
 package com.futurecollars.lesson7;
 
-public class Cinema {
+public class PlaceInCinemaHall {
     private final int seatNumber;
     private final int rowNumber;
     private String state;
 
-    public Cinema(int seatNumber, int rowNumber, String state) {
+    public PlaceInCinemaHall(int seatNumber, int rowNumber, String state) {
         this.seatNumber = seatNumber;
         this.rowNumber = rowNumber;
         this.state = state;
