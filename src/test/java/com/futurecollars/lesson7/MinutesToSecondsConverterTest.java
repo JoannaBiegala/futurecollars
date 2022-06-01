@@ -8,11 +8,11 @@ class MinutesToSecondsConverterTest {
     @Test
     void shouldConvertMinutesToSecondsCorrectly() {
         //given
-        int minutes = 2;
+        int minutes = 4;
         //when
         int seconds = MinutesToSecondsConverter.getSecondsFromGivenMinutes(minutes);
         //then
-        assertEquals(120, seconds);
+        assertEquals(240, seconds);
     }
 
 }
