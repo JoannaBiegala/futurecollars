@@ -1,8 +1,8 @@
 package com.futurecollars.lesson8.shapes;
 
 public class Rectangle extends Shape {
-    double width;
-    double height;
+    protected double width;
+    protected double height;
 
     public Rectangle(double width, double height) {
         this.width = width;
