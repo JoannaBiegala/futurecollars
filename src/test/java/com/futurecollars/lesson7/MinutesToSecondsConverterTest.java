@@ -11,9 +11,9 @@ class MinutesToSecondsConverterTest {
         //given
         int minutes = 4;
         //when
-        int seconds = MinutesToSecondsConverter.getSecondsFromGivenMinutes(minutes);
+        int shouldBeSeconds = MinutesToSecondsConverter.getSecondsFromGivenMinutes(minutes);
         //then
-        assertEquals(240, seconds);
+        assertEquals(240, shouldBeSeconds);
 
     }
 
