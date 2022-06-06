@@ -11,9 +11,9 @@ class GeometricFigureRectangleTest {
         double width = 2.0;
         double height = 3.0;
         //when
-        double area = new GeometricFigureRectangle(width, height).getArea();
+        double shouldBeArea = new GeometricFigureRectangle(width, height).getArea();
         //then
-        Assertions.assertEquals(6.0, area);
+        Assertions.assertEquals(6.0, shouldBeArea);
     }
 
     @Test
@@ -22,8 +22,8 @@ class GeometricFigureRectangleTest {
         double width = 2.0;
         double height = 3.0;
         //when
-        double perimeter = new GeometricFigureRectangle(width, height).getPerimeter();
+        double shouldBePerimeter = new GeometricFigureRectangle(width, height).getPerimeter();
         //then
-        Assertions.assertEquals(10.0, perimeter);
+        Assertions.assertEquals(10.0, shouldBePerimeter);
     }
 }

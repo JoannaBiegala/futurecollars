@@ -10,9 +10,9 @@ class GeometricFigureCircleTest {
         //given
         double radius = 2.0;
         //when
-        double area = new GeometricFigureCircle(radius).getArea();
+        double shouldBeArea = new GeometricFigureCircle(radius).getArea();
         //then
-        Assertions.assertEquals(12.56, area);
+        Assertions.assertEquals(12.56, shouldBeArea);
     }
 
     @Test
@@ -20,8 +20,8 @@ class GeometricFigureCircleTest {
         //given
         double radius = 2.0;
         //when
-        double perimeter = new GeometricFigureCircle(radius).getPerimeter();
+        double shouldBePerimeter = new GeometricFigureCircle(radius).getPerimeter();
         //then
-        Assertions.assertEquals(12.56, perimeter);
+        Assertions.assertEquals(12.56, shouldBePerimeter);
     }
 }
