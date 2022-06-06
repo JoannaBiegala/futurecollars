@@ -4,12 +4,12 @@ import java.time.LocalDate;
 
 public abstract class BaseEmployee {
     private static final int defaultSalary = 3000;
-    String firstName;
-    String lastName;
-    int basicSalary;
-    int yearOfEmployment;
+    protected final String firstName;
+    protected final String lastName;
+    protected int basicSalary;
+    protected final int yearOfEmployment;
 
-    public BaseEmployee(String firstName, String lastName, int yearOfEmployment) {
+    protected BaseEmployee(String firstName, String lastName, int yearOfEmployment) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.basicSalary = defaultSalary;
@@ -17,25 +17,32 @@ public abstract class BaseEmployee {
 
     }
 
-    public BaseEmployee(String firstName, String lastName, int basicSalary, int yearOfEmployment) {
+    protected BaseEmployee(String firstName, String lastName, int basicSalary, int yearOfEmployment) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.basicSalary = basicSalary;
         this.yearOfEmployment = yearOfEmployment;
     }
 
-    public int getBasicSalary() {
+    protected int getBasicSalary() {
         return basicSalary;
     }
 
-    public int getYearOfEmployment() {
+    protected int getYearOfEmployment() {
         return yearOfEmployment;
     }
 
-    public int getYearsOfWork() {
+    protected int getYearsOfWork() {
         return LocalDate.now().getYear() - this.getYearOfEmployment();
     }
 
-    public abstract int calculateMonthlySalary();
+    protected abstract int calculateMonthlySalary();
 
+    protected String getFirstName() {
+        return firstName;
+    }
+
+    protected String getLastName() {
+        return lastName;
+    }
 }

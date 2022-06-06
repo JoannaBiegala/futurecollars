@@ -2,15 +2,13 @@ package com.futurecollars.lesson7;
 
 public class Manager extends BaseEmployee {
 
-    private static final int defaultBasicSalaryManager = 5000;
+    private static final int defaultSalary = 5000;
     private static final int defaultBonus = 500;
-
-
     private int bonus;
 
     public Manager(String firstName, String lastName, int yearOfEmployment) {
         super(firstName, lastName, yearOfEmployment);
-        this.basicSalary = defaultBasicSalaryManager;
+        this.basicSalary = defaultSalary;
         this.bonus = defaultBonus;
     }
 
