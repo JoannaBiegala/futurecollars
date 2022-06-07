@@ -3,10 +3,11 @@ package com.futurecollars.lesson8;
 import java.util.Objects;
 
 public class Person {
-    String firstName;
-    String lastName;
-    String occupation;
-    int yearOfBirth;
+
+    private final String firstName;
+    private final String lastName;
+    private final String occupation;
+    private final int yearOfBirth;
 
     public Person(String firstName, String lastName, String occupation, int yearOfBirth) {
         this.firstName = firstName;
@@ -27,4 +28,5 @@ public class Person {
     public int hashCode() {
         return Objects.hash(firstName, lastName, occupation, yearOfBirth);
     }
+
 }
