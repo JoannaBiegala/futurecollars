@@ -10,8 +10,9 @@ class ConvertToUppercaseTest {
         //given
         String text = "Ala ma kota";
         //when
-        String expectUppercaseTest = new ConvertToUppercase().formatText(text);
+        String ShouldBeUppercaseTest = new ToUppercaseConverter().formatText(text);
         //then
-        Assertions.assertEquals("ALA MA KOTA", expectUppercaseTest);
+        Assertions.assertEquals("ALA MA KOTA", ShouldBeUppercaseTest);
     }
+
 }
