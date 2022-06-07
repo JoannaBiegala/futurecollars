@@ -3,8 +3,6 @@ package com.futurecollars.lesson8.shapes;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 class SquareTest {
 
     @Test
@@ -12,9 +10,9 @@ class SquareTest {
         //given
         double side = 2.0;
         //when
-        double area = new Square(side).getArea();
+        double shouldBeArea = new Square(side).getArea();
         //then
-        Assertions.assertEquals(4.0, area);
+        Assertions.assertEquals(4.0, shouldBeArea);
     }
 
     @Test
@@ -22,8 +20,8 @@ class SquareTest {
         //given
         double side = 2.0;
         //when
-        double perimeter = new Square(side).getPerimeter();
+        double shouldBePerimeter = new Square(side).getPerimeter();
         //then
-        Assertions.assertEquals(8.0, perimeter);
+        Assertions.assertEquals(8.0, shouldBePerimeter);
     }
 }

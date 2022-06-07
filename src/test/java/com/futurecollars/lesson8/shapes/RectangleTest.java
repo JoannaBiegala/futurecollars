@@ -11,9 +11,9 @@ class RectangleTest {
         double width = 2.0;
         double height = 3.0;
         //when
-        double area = new Rectangle(width, height).getArea();
+        double shouldBeArea = new Rectangle(width, height).getArea();
         //then
-        Assertions.assertEquals(6.0, area);
+        Assertions.assertEquals(6.0, shouldBeArea);
     }
 
     @Test
@@ -22,8 +22,8 @@ class RectangleTest {
         double width = 2.0;
         double height = 3.0;
         //when
-        double perimeter = new Rectangle(width, height).getPerimeter();
+        double shouldBePerimeter = new Rectangle(width, height).getPerimeter();
         //then
-        Assertions.assertEquals(10.0, perimeter);
+        Assertions.assertEquals(10.0, shouldBePerimeter);
     }
 }

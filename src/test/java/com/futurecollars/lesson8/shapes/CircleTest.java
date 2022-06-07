@@ -10,9 +10,9 @@ class CircleTest {
         //given
         double radius = 2.0;
         //when
-        double area = new Circle(radius).getArea();
+        double shouldBeArea = new Circle(radius).getArea();
         //then
-        Assertions.assertEquals(12.56, area);
+        Assertions.assertEquals(12.56, shouldBeArea);
     }
 
     @Test
@@ -20,8 +20,8 @@ class CircleTest {
         //given
         double radius = 2.0;
         //when
-        double perimeter = new Circle(radius).getPerimeter();
+        double shouldBePerimeter = new Circle(radius).getPerimeter();
         //then
-        Assertions.assertEquals(12.56, perimeter);
+        Assertions.assertEquals(12.56, shouldBePerimeter);
     }
 }
