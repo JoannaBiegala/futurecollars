@@ -1,8 +1,13 @@
 package com.futurecollars.lesson8;
 
 public class Triangle {
-    double width;
-    double height;
+    private final double width;
+    private final double height;
+
+    public Triangle(double width, double height) {
+        this.width = width;
+        this.height = height;
+    }
 
     @Override
     public String toString() {
