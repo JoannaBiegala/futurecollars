@@ -11,8 +11,9 @@ class ConvertToLowercaseTest {
         //given
         String text = "Ala ma kota";
         //when
-        String expectLowercaseTest = new ConvertToLowercase().formatText(text);
+        String shouldBeLowercaseTest = new ToLowercaseConverter().formatText(text);
         //then
-        Assertions.assertEquals("ala ma kota", expectLowercaseTest);
+        Assertions.assertEquals("ala ma kota", shouldBeLowercaseTest);
     }
+
 }

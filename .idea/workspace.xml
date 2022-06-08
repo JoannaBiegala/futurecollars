@@ -7,6 +7,9 @@
     <list default="true" id="9f90c526-1a59-4163-865c-654d66c0d5b4" name="Changes" comment="initial commit">
       <change afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson9/Text.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/com/futurecollars/lesson9/TextTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson8/daysOfWeek/DaysOfWeek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson8/daysOfWeek/NameOfTheDay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/futurecollars/lesson8/daysOfWeek/NameOfTheDayTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
         <option value="JUnit5 Test Class" />
       </list>
@@ -59,6 +63,11 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.TextTest">
+      <recent name="com.futurecollars.lesson8.daysOfWeek" />
+      <recent name="com.futurecollars.lesson7" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.NameOfTheDayTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson7.Main" />
       <module name="futurecollars" />
@@ -97,6 +106,16 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.futurecollars.lesson9" />
       <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson9.TextTest" />
+    <configuration name="NameOfTheDayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="futurecollars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.futurecollars.lesson8.daysOfWeek.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.futurecollars.lesson8.daysOfWeek" />
+      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson8.daysOfWeek.NameOfTheDayTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -139,6 +158,10 @@
         <item itemvalue="JUnit.TextTest" />
         <item itemvalue="JUnit.TextTest.getPalindromeLengthShouldBeZero" />
         <item itemvalue="JUnit.TextTest.getPalindromeLength" />
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.NameOfTheDayTest" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.ManagerTest" />
         <item itemvalue="Application.Main" />
       </list>

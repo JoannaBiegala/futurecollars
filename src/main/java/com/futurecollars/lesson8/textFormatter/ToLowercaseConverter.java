@@ -1,9 +1,10 @@
 package com.futurecollars.lesson8.textFormatter;
 
-public class ConvertToUppercase implements TextFormatter {
+public class ToLowercaseConverter implements TextFormatter {
 
     @Override
     public String formatText(String text) {
-        return text.toUpperCase();
+        return text.toLowerCase();
     }
+
 }
