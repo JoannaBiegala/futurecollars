@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f90c526-1a59-4163-865c-654d66c0d5b4" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson9/Text.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/futurecollars/lesson9/TextTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson8/daysOfWeek/DaysOfWeek.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson8/daysOfWeek/NameOfTheDay.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/com/futurecollars/lesson8/daysOfWeek/NameOfTheDayTest.java" afterDir="false" />
@@ -25,6 +27,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -51,6 +58,11 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.futurecollars.lesson9" />
+      <recent name="com.futurecollars.lesson7" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TextTest">
       <recent name="com.futurecollars.lesson8.daysOfWeek" />
       <recent name="com.futurecollars.lesson7" />
     </key>
@@ -84,6 +96,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TextTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="futurecollars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.futurecollars.lesson9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.futurecollars.lesson9" />
+      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson9.TextTest" />
     <configuration name="NameOfTheDayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="futurecollars" />
       <extension name="coverage">
@@ -99,11 +121,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TextTest.getPalindromeLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="futurecollars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.futurecollars.lesson9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.futurecollars.lesson9" />
+      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson9.TextTest" />
+      <option name="METHOD_NAME" value="getPalindromeLength" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TextTest.getPalindromeLengthShouldBeZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="futurecollars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.futurecollars.lesson9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.futurecollars.lesson9" />
+      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson9.TextTest" />
+      <option name="METHOD_NAME" value="getPalindromeLengthShouldBeZero" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TextTest" />
+        <item itemvalue="JUnit.TextTest.getPalindromeLengthShouldBeZero" />
+        <item itemvalue="JUnit.TextTest.getPalindromeLength" />
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.NameOfTheDayTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.ManagerTest" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -116,6 +176,28 @@
       <option name="presentableId" value="Default" />
       <updated>1653474641989</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1654251172183</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654251172183</updated>
+    </task>
+    <task id="LOCAL-00002" summary="initial commit">
+      <created>1654252456010</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654252456010</updated>
+    </task>
+    <task id="LOCAL-00003" summary="initial commit">
+      <created>1654263727300</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654263727300</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
