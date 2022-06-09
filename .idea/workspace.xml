@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f90c526-1a59-4163-865c-654d66c0d5b4" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson9/Text.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/futurecollars/lesson9/TextTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson8/daysOfWeek/DaysOfWeek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson8/daysOfWeek/NameOfTheDay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/futurecollars/lesson8/daysOfWeek/NameOfTheDayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson9/fizzBuzz/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson9/fizzBuzz/TextCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/futurecollars/lesson9/fizzBuzz/TextCreatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,21 +56,18 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.futurecollars.lesson9.fizzBuzz" />
       <recent name="com.futurecollars.lesson9" />
       <recent name="com.futurecollars.lesson7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TextTest">
-      <recent name="com.futurecollars.lesson8.daysOfWeek" />
-      <recent name="com.futurecollars.lesson7" />
-  </component>
-  <component name="RunManager" selected="JUnit.NameOfTheDayTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson7.Main" />
+  <component name="RunManager" selected="JUnit.TextCreatorTest">
+    <configuration name="com.futurecollars.lesson9.fizzBuzz.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson9.fizzBuzz.Main" />
       <module name="futurecollars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.futurecollars.lesson7.*" />
+          <option name="PATTERN" value="com.futurecollars.lesson9.fizzBuzz.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,91 +75,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TextCreatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="futurecollars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.futurecollars.lesson7.*" />
+          <option name="PATTERN" value="com.futurecollars.lesson9.fizzBuzz.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.futurecollars.lesson7" />
-      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson7.ManagerTest" />
+      <option name="PACKAGE_NAME" value="com.futurecollars.lesson9.fizzBuzz" />
+      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson9.fizzBuzz.TextCreatorTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true"/>
+    <configuration name="TextCreatorTest.shouldBeFizz" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="futurecollars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.futurecollars.lesson9.*" />
+          <option name="PATTERN" value="com.futurecollars.lesson9.fizzBuzz.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.futurecollars.lesson9" />
-      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson9.TextTest" />
-    <configuration name="NameOfTheDayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <option name="PACKAGE_NAME" value="com.futurecollars.lesson9.fizzBuzz" />
+      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson9.fizzBuzz.TextCreatorTest" />
+      <option name="METHOD_NAME" value="shouldBeFizz" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TextCreatorTest.writeText" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="futurecollars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.futurecollars.lesson8.daysOfWeek.*" />
+          <option name="PATTERN" value="com.futurecollars.lesson9.fizzBuzz.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.futurecollars.lesson8.daysOfWeek" />
-      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson8.daysOfWeek.NameOfTheDayTest" />
+      <option name="PACKAGE_NAME" value="com.futurecollars.lesson9.fizzBuzz" />
+      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson9.fizzBuzz.TextCreatorTest" />
+      <option name="METHOD_NAME" value="writeText" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TextTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TextTest.getPalindromeLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="futurecollars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.futurecollars.lesson9.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.futurecollars.lesson9" />
-      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson9.TextTest" />
-      <option name="METHOD_NAME" value="getPalindromeLength" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TextTest.getPalindromeLengthShouldBeZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="futurecollars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.futurecollars.lesson9.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.futurecollars.lesson9" />
-      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson9.TextTest" />
-      <option name="METHOD_NAME" value="getPalindromeLengthShouldBeZero" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TextCreatorTest" />
+        <item itemvalue="JUnit.TextCreatorTest.writeText" />
+        <item itemvalue="Application.com.futurecollars.lesson9.fizzBuzz.Main" />
+        <item itemvalue="JUnit.TextCreatorTest.shouldBeFizz" />
         <item itemvalue="JUnit.TextTest" />
-        <item itemvalue="JUnit.TextTest.getPalindromeLengthShouldBeZero" />
-        <item itemvalue="JUnit.TextTest.getPalindromeLength" />
-      </list>
-    </recent_temporary>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.NameOfTheDayTest" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.ManagerTest" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
