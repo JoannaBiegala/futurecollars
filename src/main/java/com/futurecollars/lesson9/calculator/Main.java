@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+
         boolean runApp = true;
         Scanner scanner = new Scanner(System.in);
         do {
@@ -18,9 +19,7 @@ public class Main {
             } else {
                 System.out.println("How many numbers do you want to operate on: ");
                 int range = scanner.nextInt();
-
                 int[] numbers = new int[range];
-
                 for (int index = 0; index < range; index++) {
                     System.out.println("Insert number: ");
                     numbers[index] = scanner.nextInt();
@@ -29,5 +28,7 @@ public class Main {
                 System.out.println("Result: " + calculator.runCalculator(option, numbers) + "\n");
             }
         } while (runApp);
+
     }
+
 }

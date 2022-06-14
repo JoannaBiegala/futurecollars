@@ -19,7 +19,9 @@ public class Calculator {
 
     private static int add(int... numbers) {
         int sum = 0;
-        for (int number : numbers) sum += number;
+        for (int number : numbers){
+            sum += number;
+        }
         return sum;
     }
 
@@ -33,7 +35,9 @@ public class Calculator {
 
     private static int multiply(int... numbers) {
         int product = 1;
-        for (int number : numbers) product *= number;
+        for (int number : numbers) {
+            product *= number;
+        }
         return product;
     }
 
