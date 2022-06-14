@@ -3,6 +3,7 @@ package com.futurecollars.lesson5.task4;
 import java.math.BigDecimal;
 
 public class Employee {
+    public static final String WHITE_SPACE = " ";
     static int amount;
     private final String name;
     private final String surname;
@@ -40,46 +41,24 @@ public class Employee {
         amount++;
     }
 
-    public String getemployee_Info() {
+    public String getEmployeeDescription() {
         return "Employee name : " + name + WHITE_SPACE + surname;
     }
 
-    public String getEmployeeDetails() {
+    public String getEmployeeDetailsWithAge() {
         return "Employee details : " + name + WHITE_SPACE + surname + " is " + age;
     }
 
-    public static final String WHITE_SPACE = " ";
-
-    public BigDecimal getSalary_1() {
+    public BigDecimal getSalary() {
         return baseSalary.add(bonus);
     }
 
-    public BigDecimal getSalary_2() {
-        return baseSalary;
-    }
-
-    public BigDecimal get_B() {
+    public BigDecimal getBonus(){
         return bonus;
     }
 
     public BigDecimal getBaseSalary() {
         return baseSalary;
-    }
-
-    public void setBaseSalary(BigDecimal baseSalary) {
-        this.baseSalary = baseSalary;
-    }
-
-    public int calculateEmployYears(int employYears) {
-        return employYears - 2000;
-    }
-
-    public BigDecimal calculateMonthlySalary() {
-        return this.getBaseSalary();
-    }
-
-    public static int getAmountOfEmployees() {
-        return amount;
     }
 
 }
