@@ -8,7 +8,6 @@ public class TicketSeller extends BaseEmployee {
 
     public TicketSeller(String firstName, String lastName, int basicSalary, int yearOfEmployment) {
         super(firstName, lastName, basicSalary, yearOfEmployment);
-        this.basicSalary = basicSalary;
     }
 
     @Override
@@ -19,10 +18,11 @@ public class TicketSeller extends BaseEmployee {
     @Override
     public String toString() {
         return "TicketSeller{" +
-                "firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", basicSalary=" + basicSalary +
-                ", yearOfEmployment=" + yearOfEmployment +
+                ", firstName='" + getFirstName() + '\'' +
+                ", lastName='" + getLastName() + '\'' +
+                ", basicSalary=" + getBasicSalary() +
+                ", yearOfEmployment=" + getYearOfEmployment() +
                 '}';
     }
+
 }

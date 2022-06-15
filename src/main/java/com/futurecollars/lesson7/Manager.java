@@ -2,25 +2,25 @@ package com.futurecollars.lesson7;
 
 public class Manager extends BaseEmployee {
 
-    private static final int defaultSalary = 5000;
-    private static final int defaultBonus = 500;
+    private static final int DEFAULT_SALARY = 5000;
+    private static final int DEFAULT_BONUS = 500;
     private int bonus;
 
     public Manager(String firstName, String lastName, int yearOfEmployment) {
         super(firstName, lastName, yearOfEmployment);
-        this.basicSalary = defaultSalary;
-        this.bonus = defaultBonus;
+        setBasicSalary(DEFAULT_SALARY);
+        setBonus(DEFAULT_BONUS);
     }
 
     public Manager(String firstName, String lastName, int basicSalary, int yearOfEmployment) {
         super(firstName, lastName, basicSalary, yearOfEmployment);
-        this.bonus = defaultBonus;
+        setBonus(DEFAULT_BONUS);
 
     }
 
     public Manager(String firstName, String lastName, int basicSalary, int yearOfEmployment, int bonus) {
         super(firstName, lastName, basicSalary, yearOfEmployment);
-        this.bonus = bonus;
+        setBonus(DEFAULT_BONUS);
     }
 
     public int getBonus() {
@@ -41,10 +41,11 @@ public class Manager extends BaseEmployee {
     public String toString() {
         return "Manager{" +
                 "bonus=" + bonus +
-                ", firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", basicSalary=" + basicSalary +
-                ", yearOfEmployment=" + yearOfEmployment +
+                ", firstName='" + getFirstName() + '\'' +
+                ", lastName='" + getLastName() + '\'' +
+                ", basicSalary=" + getBasicSalary() +
+                ", yearOfEmployment=" + getYearOfEmployment() +
                 '}';
     }
+
 }

@@ -7,53 +7,45 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class ManagerTest {
 
     @Test
-    void calculateMonthlySalaryWithDefaultBasicSalaryAndDefaultBonus() {
+    void shouldBeMonthlySalaryWithDefaultBasicSalaryAndDefaultBonus() {
         //given
         String firstName = "Jarek";
         String lastName = "Kwiatkowski";
         int yearOfEmployment = 2021;
-
         //when
         Manager manager = new Manager(firstName, lastName, yearOfEmployment);
-        int shouldReturnMonthlySalary = manager.calculateMonthlySalary();
-
+        int expectedMonthlySalary = manager.calculateMonthlySalary();
         //then
-        assertEquals(5500, shouldReturnMonthlySalary);
-
+        assertEquals(5500, expectedMonthlySalary);
     }
 
     @Test
-    void calculateMonthlySalaryWithDefaultBonus() {
+    void shouldBeMonthlySalaryWithDefaultBonus() {
         //given
         String firstName = "Marek";
         String lastName = "Kwiatkowski";
         int basicSalary = 7000;
         int yearOfEmployment = 2020;
-
         //when
         Manager manager = new Manager(firstName, lastName, basicSalary, yearOfEmployment);
-        int shouldReturnMonthlySalary = manager.calculateMonthlySalary();
-
+        int expectedMonthlySalary = manager.calculateMonthlySalary();
         //then
-        assertEquals(7500, shouldReturnMonthlySalary);
-
+        assertEquals(7500, expectedMonthlySalary);
     }
 
     @Test
-    void calculateMonthlySalary() {
+    void shouldBeMonthlySalary() {
         //given
         String firstName = "Marek";
         String lastName = "Kwiatkowski";
         int basicSalary = 9000;
         int yearOfEmployment = 2020;
         int bonus = 100;
-
         //when
         Manager manager = new Manager(firstName, lastName, basicSalary, yearOfEmployment, bonus);
-        int shouldReturnMonthlySalary = manager.calculateMonthlySalary();
-
+        int expectedMonthlySalary = manager.calculateMonthlySalary();
         //then
-        assertEquals(9100, shouldReturnMonthlySalary);
-
+        assertEquals(9100, expectedMonthlySalary);
     }
+
 }

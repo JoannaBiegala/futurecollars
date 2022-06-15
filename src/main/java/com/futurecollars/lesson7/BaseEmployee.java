@@ -3,18 +3,17 @@ package com.futurecollars.lesson7;
 import java.time.LocalDate;
 
 public abstract class BaseEmployee {
-    private static final int defaultSalary = 3000;
-    protected final String firstName;
-    protected final String lastName;
-    protected int basicSalary;
-    protected final int yearOfEmployment;
+    private static final int DEFAULT_SALARY = 3000;
+    private final String firstName;
+    private final String lastName;
+    private int basicSalary;
+    private final int yearOfEmployment;
 
     protected BaseEmployee(String firstName, String lastName, int yearOfEmployment) {
         this.firstName = firstName;
         this.lastName = lastName;
-        this.basicSalary = defaultSalary;
         this.yearOfEmployment = yearOfEmployment;
-
+        setBasicSalary(DEFAULT_SALARY);
     }
 
     protected BaseEmployee(String firstName, String lastName, int basicSalary, int yearOfEmployment) {
@@ -24,25 +23,30 @@ public abstract class BaseEmployee {
         this.yearOfEmployment = yearOfEmployment;
     }
 
-    protected int getBasicSalary() {
+    public int getBasicSalary() {
         return basicSalary;
     }
 
-    protected int getYearOfEmployment() {
+    public int getYearOfEmployment() {
         return yearOfEmployment;
     }
 
-    protected int getYearsOfWork() {
+    public int getYearsOfWork() {
         return LocalDate.now().getYear() - this.getYearOfEmployment();
     }
 
     protected abstract int calculateMonthlySalary();
 
-    protected String getFirstName() {
+    public String getFirstName() {
         return firstName;
     }
 
-    protected String getLastName() {
+    public String getLastName() {
         return lastName;
     }
+
+    public void setBasicSalary(int basicSalary) {
+        this.basicSalary = basicSalary;
+    }
+
 }
