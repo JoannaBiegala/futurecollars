@@ -12,10 +12,9 @@ class TriangleTest {
         int b = 4;
         int c = 5;
         //when
-        boolean shouldBeTrue = Triangle.isTriangleRectangular(a, b, c);
+        boolean shouldBeRectangular = Triangle.isRectangular(a, b, c);
         //then
-        Assertions.assertTrue(shouldBeTrue);
-
+        Assertions.assertTrue(shouldBeRectangular);
 
     }
 
@@ -26,10 +25,9 @@ class TriangleTest {
         int b = 4;
         int c = 5;
         //when
-        boolean shouldBeFalse = Triangle.isTriangleRectangular(a, b, c);
+        boolean shouldBeNotRectangular = Triangle.isRectangular(a, b, c);
         //then
-        Assertions.assertFalse(shouldBeFalse);
-
+        Assertions.assertFalse(shouldBeNotRectangular);
 
     }
 
