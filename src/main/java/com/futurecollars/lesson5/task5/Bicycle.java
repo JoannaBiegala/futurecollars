@@ -1,14 +1,30 @@
 package com.futurecollars.lesson5.task5;
 
-public class Bicycle extends Vehicle {
+public class Bicycle implements Vehicle {
+    boolean isStarted;
 
-    @Override
-    protected void startEngine() {
-        throw new UnsupportedOperationException("Bicycle does not have engine");
+    public Bicycle(boolean isStarted) {
+        this.isStarted = isStarted;
     }
 
     @Override
-    protected void stopEngine() {
-        throw new UnsupportedOperationException("Bicycle does not have engine");
+    public void start() {
+        isStarted = true;
     }
+
+    @Override
+    public void stop() {
+        isStarted = false;
+    }
+
+    @Override
+    public boolean isStarted() {
+        return isStarted;
+    }
+
+    @Override
+    public void setStarted(boolean isStarted) {
+        this.isStarted = isStarted;
+    }
+
 }
