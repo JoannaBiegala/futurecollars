@@ -69,6 +69,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ConvertMinutesToSecondsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="futurecollars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.futurecollars.lesson7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.futurecollars.lesson7" />
+      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson7.ConvertMinutesToSecondsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="futurecollars" />
       <extension name="coverage">
