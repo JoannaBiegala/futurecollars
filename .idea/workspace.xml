@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f90c526-1a59-4163-865c-654d66c0d5b4" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson8/BillCalculator.java" afterDir="false" />
+    <list default="true" id="9f90c526-1a59-4163-865c-654d66c0d5b4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson8/textFormatter/ToLowercaseConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson8/textFormatter/ToLowercaseConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson8/textFormatter/ToUppercaseConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson8/textFormatter/ToUppercaseConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/futurecollars/lesson8/textFormatter/ConvertToLowercaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/futurecollars/lesson8/textFormatter/ConvertToLowercaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/futurecollars/lesson8/textFormatter/ConvertToUppercaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/futurecollars/lesson8/textFormatter/ConvertToUppercaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,18 +61,19 @@
       <recent name="com.futurecollars.lesson7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BillCalculatorTest">
-    <configuration name="BillCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ConvertToUppercaseTest.ShouldBeUppercaseTest">
+    <configuration name="ConvertToUppercaseTest.ShouldBeUppercaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="futurecollars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.futurecollars.lesson8.*" />
+          <option name="PATTERN" value="com.futurecollars.lesson8.textFormatter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.futurecollars.lesson8" />
-      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson8.BillCalculatorTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.futurecollars.lesson8.textFormatter" />
+      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson8.textFormatter.ConvertToUppercaseTest" />
+      <option name="METHOD_NAME" value="ShouldBeUppercaseTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -128,10 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BillCalculatorTest" />
-        <item itemvalue="JUnit.TextTest" />
+        <item itemvalue="JUnit.ConvertToUppercaseTest.ShouldBeUppercaseTest" />
         <item itemvalue="JUnit.TextTest.getPalindromeLengthShouldBeZero" />
         <item itemvalue="JUnit.TextTest.getPalindromeLength" />
+        <item itemvalue="JUnit.TextTest" />
+        <item itemvalue="JUnit.NameOfTheDayTest" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654263727300</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="initial commit">
+      <created>1655313947199</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1655313947199</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
