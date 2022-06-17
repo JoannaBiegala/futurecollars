@@ -1,6 +1,6 @@
 package com.futurecollars.lesson9.fizzBuzz;
 
-public class FizzBuzzTextCreator {
+public class FizzBuzzPlayer {
 
     private static final String SEPARATOR = " ";
 

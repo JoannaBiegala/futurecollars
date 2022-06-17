@@ -3,8 +3,8 @@ package com.futurecollars.lesson9.fizzBuzz;
 public class Main {
 
     public static void main(String[] args) {
-        FizzBuzzTextCreator textCreator = new FizzBuzzTextCreator();
-        System.out.println(textCreator.createFizzBuzzText(100));
+        FizzBuzzPlayer fizzBuzzPlayer = new FizzBuzzPlayer();
+        System.out.println(fizzBuzzPlayer.createFizzBuzzText(100));
     }
 
 }
