@@ -8,55 +8,46 @@ class CalculatorTest {
     @Test
     void shouldBeSum() {
         //given
-        int option = 1;
         int[] numbers = {2, 3, 4, 5};
+        Operation addition = new Addition();
         //when
-        String shouldBeSum = new Calculator().runCalculator(option, numbers);
+        int shouldBeSum = new Calculator().runCalculator(addition, numbers);
         //then
-        Assertions.assertEquals("14", shouldBeSum);
+        Assertions.assertEquals(14, shouldBeSum);
     }
 
     @Test
     void shouldBeDifference() {
         //given
-        int option = 2;
+        Operation subtraction = new Subtraction();
         int[] numbers = {12, 3, 4};
         //when
-        String shouldBeDifference = new Calculator().runCalculator(option, numbers);
+        int shouldBeDifference = new Calculator().runCalculator(subtraction, numbers);
         //then
-        Assertions.assertEquals("5", shouldBeDifference);
+        Assertions.assertEquals(5, shouldBeDifference);
     }
 
     @Test
     void shouldBeProduct() {
         //given
-        int option = 3;
+        Operation multiplication = new Multiplication();
+
         int[] numbers = {2, 3};
         //when
-        String shouldBeProduct = new Calculator().runCalculator(option, numbers);
+        int shouldBeProduct = new Calculator().runCalculator(multiplication, numbers);
         //then
-        Assertions.assertEquals("6", shouldBeProduct);
+        Assertions.assertEquals(6, shouldBeProduct);
     }
 
     @Test
     void shouldBeQuotient() {
         //given
-        int option = 4;
+        Operation division = new Division();
         int[] numbers = {12, 3, 2};
         //when
-        String shouldBeQuotient = new Calculator().runCalculator(option, numbers);
+        int shouldBeQuotient = new Calculator().runCalculator(division, numbers);
         //then
-        Assertions.assertEquals("2", shouldBeQuotient);
+        Assertions.assertEquals(2, shouldBeQuotient);
     }
 
-    @Test
-    void shouldBeWrongOption() {
-        //given
-        int option = 7;
-        int[] numbers = {12, 3, 2};
-        //when
-        String shouldBeQuotient = new Calculator().runCalculator(option, numbers);
-        //then
-        Assertions.assertEquals("Option entered incorrectly", shouldBeQuotient);
-    }
 }
