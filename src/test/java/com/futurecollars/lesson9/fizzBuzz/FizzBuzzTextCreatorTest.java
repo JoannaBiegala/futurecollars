@@ -20,29 +20,9 @@ class FizzBuzzTextCreatorTest {
         //given
         int number = 25;
         //when
-        String expectBuzz = new FizzBuzzTextCreator().addBuzz(number, "");
+        String expectBuzz = new FizzBuzzTextCreator().addBuzz(number);
         //then
         Assertions.assertEquals("Buzz", expectBuzz);
-    }
-
-    @Test
-    void shouldBeFizzBuzz() {
-        //given
-        int number = 15;
-        //when
-        String expectFizzBuzz = new FizzBuzzTextCreator().addBuzz(number, "Fizz");
-        //then
-        Assertions.assertEquals("FizzBuzz", expectFizzBuzz);
-    }
-
-    @Test
-    void shouldBeNumber() {
-        //given
-        int number = 7;
-        //when
-        String expectNumber = new FizzBuzzTextCreator().addNumber(number, "");
-        //then
-        Assertions.assertEquals("7", expectNumber);
     }
 
     @Test

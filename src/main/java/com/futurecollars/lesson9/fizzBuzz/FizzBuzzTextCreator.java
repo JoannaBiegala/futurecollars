@@ -8,20 +8,18 @@ public class FizzBuzzTextCreator {
         return (number % 3 == 0) ? "Fizz" : "";
     }
 
-    String addBuzz(int number, String textOfNumber) {
-        return (number % 5 == 0) ? textOfNumber + "Buzz" : textOfNumber;
-    }
-
-    String addNumber(int number, String textOfNumber) {
-        return (textOfNumber.length() == 0) ? String.valueOf(number) : textOfNumber;
+    String addBuzz(int number) {
+        return (number % 5 == 0) ? "Buzz" : "";
     }
 
     public String createFizzBuzzText(int range) {
         String text = "";
         for (int number = 1; number <= range; number++) {
             String textOfNumber = addFizz(number);
-            textOfNumber = addBuzz(number, textOfNumber);
-            textOfNumber = addNumber(number, textOfNumber);
+            textOfNumber += addBuzz(number);
+            if (textOfNumber.length() == 0) {
+                textOfNumber = String.valueOf(number);
+            }
             text += (number == 1) ? textOfNumber : SEPARATOR + textOfNumber;
         }
         return text;
