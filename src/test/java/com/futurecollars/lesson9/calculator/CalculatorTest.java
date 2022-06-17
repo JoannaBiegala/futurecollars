@@ -8,8 +8,8 @@ class CalculatorTest {
     @Test
     void shouldBeSum() {
         //given
-        int[] numbers = {2, 3, 4, 5};
         Operation addition = new Addition();
+        int[] numbers = {2, 3, 4, 5};
         //when
         int shouldBeSum = new Calculator().runCalculator(addition, numbers);
         //then
@@ -31,7 +31,6 @@ class CalculatorTest {
     void shouldBeProduct() {
         //given
         Operation multiplication = new Multiplication();
-
         int[] numbers = {2, 3};
         //when
         int shouldBeProduct = new Calculator().runCalculator(multiplication, numbers);
