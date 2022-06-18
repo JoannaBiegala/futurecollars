@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f90c526-1a59-4163-865c-654d66c0d5b4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="9f90c526-1a59-4163-865c-654d66c0d5b4" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson11/season/Season.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson11/season/SeasonManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/futurecollars/lesson11/season/SeasonManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +18,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -38,26 +41,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "MavenSettings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.futurecollars.lesson11.season" />
       <recent name="com.futurecollars.lesson9" />
       <recent name="com.futurecollars.lesson7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BillCalculatorTest">
+  <component name="RunManager" selected="JUnit.SeasonManagerTest">
     <configuration name="BillCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="futurecollars" />
       <extension name="coverage">
@@ -73,16 +80,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NameOfTheDayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SeasonManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="futurecollars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.futurecollars.lesson8.daysOfWeek.*" />
+          <option name="PATTERN" value="com.futurecollars.lesson11.season.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.futurecollars.lesson8.daysOfWeek" />
-      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson8.daysOfWeek.NameOfTheDayTest" />
+      <option name="PACKAGE_NAME" value="com.futurecollars.lesson11.season" />
+      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson11.season.SeasonManagerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -128,6 +135,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SeasonManagerTest" />
         <item itemvalue="JUnit.BillCalculatorTest" />
         <item itemvalue="JUnit.TextTest" />
         <item itemvalue="JUnit.TextTest.getPalindromeLengthShouldBeZero" />
