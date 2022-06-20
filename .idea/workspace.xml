@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f90c526-1a59-4163-865c-654d66c0d5b4" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson11/calkulator/Currency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson11/calkulator/CurrencyExchange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson11/calkulator/CurrencyRate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson11/calkulator/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson11/calkulator/RateEUR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson11/calkulator/RateGBP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson11/calkulator/RateUSD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/futurecollars/lesson11/calkulator/CurrencyExchangeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson11/calkulator/OnlineCantorConnector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson11/calkulator/CurrencyExchange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson11/calkulator/CurrencyCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson11/calkulator/CurrencyRate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson11/calkulator/CurrencyRateProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson11/calkulator/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson11/calkulator/RateEUR.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson11/calkulator/RateGBP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson11/calkulator/RateUSD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/futurecollars/lesson11/calkulator/CurrencyExchangeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/futurecollars/lesson11/calkulator/CurrencyExchangeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,15 +25,15 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="Mockito/SalaryCalculator" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -67,35 +67,7 @@
       <recent name="com.futurecollars.lesson7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CurrencyExchangeTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson11.calkulator.Main" />
-      <module name="futurecollars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.futurecollars.lesson11.calkulator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BillCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="futurecollars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.futurecollars.lesson8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.futurecollars.lesson8" />
-      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson8.BillCalculatorTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.CurrencyExchangeTest.shouldThrowException">
     <configuration name="CurrencyExchangeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="futurecollars" />
       <extension name="coverage">
@@ -111,7 +83,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CurrencyExchangeTest.shouldBeCurrencyConverted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CurrencyExchangeTest.shouldBeGBPConverted (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="futurecollars" />
       <extension name="coverage">
         <pattern>
@@ -121,13 +93,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.futurecollars.lesson11.calkulator" />
       <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson11.calkulator.CurrencyExchangeTest" />
-      <option name="METHOD_NAME" value="shouldBeCurrencyConverted" />
+      <option name="METHOD_NAME" value="shouldBeGBPConverted(com.futurecollars.lesson11.calkulator.Currency)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CurrencyExchangeTest.shouldBeEURConverted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CurrencyExchangeTest.shouldBeGBPConverted (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="futurecollars" />
       <extension name="coverage">
         <pattern>
@@ -137,7 +109,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.futurecollars.lesson11.calkulator" />
       <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson11.calkulator.CurrencyExchangeTest" />
-      <option name="METHOD_NAME" value="shouldBeEURConverted" />
+      <option name="METHOD_NAME" value="shouldBeGBPConverted(com.futurecollars.lesson11.calkulator.Currency,double,double)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CurrencyExchangeTest.shouldBeGBPConverted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="futurecollars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.futurecollars.lesson11.calkulator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.futurecollars.lesson11.calkulator" />
+      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson11.calkulator.CurrencyExchangeTest" />
+      <option name="METHOD_NAME" value="shouldBeGBPConverted" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CurrencyExchangeTest.shouldThrowException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="futurecollars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.futurecollars.lesson11.calkulator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.futurecollars.lesson11.calkulator" />
+      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson11.calkulator.CurrencyExchangeTest" />
+      <option name="METHOD_NAME" value="shouldThrowException(com.futurecollars.lesson11.calkulator.Currency,double)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CurrencyExchangeTest.shouldThrowException" />
+        <item itemvalue="JUnit.CurrencyExchangeTest.shouldBeGBPConverted (2)" />
+        <item itemvalue="JUnit.CurrencyExchangeTest.shouldBeGBPConverted (1)" />
+        <item itemvalue="JUnit.CurrencyExchangeTest.shouldBeGBPConverted" />
         <item itemvalue="JUnit.CurrencyExchangeTest" />
-        <item itemvalue="JUnit.CurrencyExchangeTest.shouldBeEURConverted" />
-        <item itemvalue="JUnit.CurrencyExchangeTest.shouldBeCurrencyConverted" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.BillCalculatorTest" />
       </list>
     </recent_temporary>
   </component>
