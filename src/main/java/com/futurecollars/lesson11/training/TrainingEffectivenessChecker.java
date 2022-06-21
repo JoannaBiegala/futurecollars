@@ -1,23 +1,17 @@
 package com.futurecollars.lesson11.training;
 
-public class TrainingEfficiency {
-    int trainingLength;
-    int numberOfCaloriesBurned;
-    int averageHeartRate;
-    int weightOfTrainingLength;
-    int weightOfNumberOfCaloriesBurned;
-    int weightOfAverageHeartRate;
+public class TrainingEffectivenessChecker {
+    private final int trainingLength;
+    private final int numberOfCaloriesBurned;
+    private final int averageHeartRate;
 
-    public TrainingEfficiency(int trainingLength, int numberOfCaloriesBurned, int averageHeartRate) {
+    public TrainingEffectivenessChecker(int trainingLength, int numberOfCaloriesBurned, int averageHeartRate) {
         this.trainingLength = trainingLength;
         this.numberOfCaloriesBurned = numberOfCaloriesBurned;
         this.averageHeartRate = averageHeartRate;
-        this.weightOfTrainingLength = getWeightOfTrainingLength();
-        this.weightOfNumberOfCaloriesBurned = getWeightOfNumberOfCaloriesBurned();
-        this.weightOfAverageHeartRate = getWeightOfAverageHeartRate();
     }
 
-    public int getWeightOfTrainingLength() {
+    private int getWeightOfTrainingLength() {
         if (trainingLength < 30) {
             return 1;
         }
@@ -30,7 +24,7 @@ public class TrainingEfficiency {
         return 0;
     }
 
-    public int getWeightOfNumberOfCaloriesBurned() {
+    private int getWeightOfNumberOfCaloriesBurned() {
         if (numberOfCaloriesBurned <= 300) {
             return 1;
         }
@@ -43,7 +37,7 @@ public class TrainingEfficiency {
         return 0;
     }
 
-    public int getWeightOfAverageHeartRate() {
+    private int getWeightOfAverageHeartRate() {
         if (averageHeartRate < 160) {
             return 1;
         }
@@ -57,22 +51,23 @@ public class TrainingEfficiency {
     }
 
 
-    public String getTrainingEfficiency() {
-        int totalWeight = weightOfTrainingLength + 2 * weightOfNumberOfCaloriesBurned + 3 * weightOfAverageHeartRate;
-        double weightedAverage = totalWeight / 6;
+    public String getLevelOfTrainingEffectiveness() {
+        int totalWeight = getWeightOfTrainingLength() + 2 * getWeightOfNumberOfCaloriesBurned()
+                + 3 * getWeightOfAverageHeartRate();
+        double weightedAverage = totalWeight / 6.0;
         if (weightedAverage < 1.2) {
-            return "Weighted Average - low";
+            return "Training - low";
         }
         if (weightedAverage >= 1.2 && weightedAverage < 2.0) {
-            return "Weighted Average - good";
+            return "Training - good";
         }
-        if (weightedAverage <= 2.0 && weightedAverage < 3.0) {
-            return "Weighted Average - very good";
+        if (weightedAverage >= 2.0 && weightedAverage < 3.0) {
+            return "Training - very good";
         }
         if (weightedAverage == 3) {
-            return "Weighted Average - perfect";
+            return "Training - perfect";
         }
-        return "Error";
+        return "Error: Weighted Average is off scale";
     }
 
 }
