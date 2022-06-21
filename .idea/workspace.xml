@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f90c526-1a59-4163-865c-654d66c0d5b4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson5/task4/BaseEmployee.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson5/task4/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson5/task4/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson5/task4/Manager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson5/task4/Minutes2SecondsConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/futurecollars/lesson5/task4/EmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/futurecollars/lesson5/task4/EmployeeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655461936425</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="initial commit">
+      <created>1655800865636</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1655800865636</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
