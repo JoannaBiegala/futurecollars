@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f90c526-1a59-4163-865c-654d66c0d5b4" name="Changes" comment="initial commit">
+    <list default="true" id="9f90c526-1a59-4163-865c-654d66c0d5b4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson5/task4/BaseEmployee.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson5/task4/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson5/task4/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson5/task4/Manager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson5/task4/Minutes2SecondsConverter.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/futurecollars/lesson5/task4/EmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/futurecollars/lesson5/task4/EmployeeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +62,7 @@
       <recent name="com.futurecollars.lesson7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.EmployeeTest">
+  <component name="RunManager" selected="JUnit.EmployeeTest.shouldRetrieveBaseSalary">
     <configuration name="EmployeeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="futurecollars" />
       <extension name="coverage">
@@ -75,6 +78,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EmployeeTest.shouldRetrieveBaseSalary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="futurecollars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.futurecollars.lesson5.task4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.futurecollars.lesson5.task4" />
+      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson5.task4.EmployeeTest" />
+      <option name="METHOD_NAME" value="shouldRetrieveBaseSalary" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeTest.shouldRetrieveBaseSalaryWithBonus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="futurecollars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.futurecollars.lesson5.task4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.futurecollars.lesson5.task4" />
+      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson5.task4.EmployeeTest" />
+      <option name="METHOD_NAME" value="shouldRetrieveBaseSalaryWithBonus" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EmployeeTest.shouldRetrieveEmployeeDescription" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="futurecollars" />
       <extension name="coverage">
@@ -86,28 +121,6 @@
       <option name="PACKAGE_NAME" value="com.futurecollars.lesson5.task4" />
       <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson5.task4.EmployeeTest" />
       <option name="METHOD_NAME" value="shouldRetrieveEmployeeDescription" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TextTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TextTest.getPalindromeLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="futurecollars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.futurecollars.lesson9.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.futurecollars.lesson9" />
-      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson9.TextTest" />
-      <option name="METHOD_NAME" value="getPalindromeLength" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -131,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EmployeeTest.shouldRetrieveBaseSalary" />
         <item itemvalue="JUnit.EmployeeTest" />
         <item itemvalue="JUnit.EmployeeTest.shouldRetrieveEmployeeDescription" />
-        <item itemvalue="JUnit.TextTest" />
+        <item itemvalue="JUnit.EmployeeTest.shouldRetrieveBaseSalaryWithBonus" />
         <item itemvalue="JUnit.TextTest.getPalindromeLengthShouldBeZero" />
-        <item itemvalue="JUnit.TextTest.getPalindromeLength" />
       </list>
     </recent_temporary>
   </component>
@@ -169,14 +182,21 @@
       <option name="project" value="LOCAL" />
       <updated>1654263727300</updated>
     </task>
-    <task id="LOCAL-00004" summary="initial commit">
-      <created>1655189751756</created>
+    <task id="LOCAL-00004" summary="refactoring code">
+      <created>1655461801462</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1655189751756</updated>
+      <updated>1655461801462</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="refactoring code">
+      <created>1655461936425</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1655461936425</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
