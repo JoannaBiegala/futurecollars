@@ -1,26 +1,29 @@
 package com.futurecollars.lesson11.salary;
 
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvSource;
 import org.mockito.Mockito;
 
 class SalaryCalculatorTest {
 
-    @Test
-    void shouldBeSalary() {
+    @ParameterizedTest(name = "Bonus: {0}, Number of Saturdays: {1}")
+    @CsvSource(value = {"500:5"}, delimiter = ':')
+    void shouldBeSalary(int bonus, int numberOfSaturdays) {
         //given
-        int bonus = 500;
-        int saturdayCount = 5;
-        BasicSalary basicSalary = Mockito.mock(BasicSalary.class);
+        OnlineBasicSalaryConnector basicSalary = Mockito.mock(OnlineBasicSalaryConnector.class);
         Mockito
                 .when(basicSalary.getBasicSalary())
                 .thenReturn(3000);
-        SaturdayAmount saturdayAmount = Mockito.mock(SaturdayAmount.class);
+
+        OnlinePaymentForSaturdayConnector onlinePaymentForSaturdayConnector = Mockito.mock(OnlinePaymentForSaturdayConnector.class);
         Mockito
-                .when(saturdayAmount.getAmountForSaturday(saturdayCount))
+                .when(onlinePaymentForSaturdayConnector.getPaymentForSaturday())
                 .thenReturn(1000);
+
         //when
-        int salary = new SalaryCalculator(bonus, saturdayCount).getSalary();
+        int salary = new SalaryCalculator(bonus, numberOfSaturdays).getSalary();
+        //then
         Assertions.assertEquals(4500, salary);
     }
 
