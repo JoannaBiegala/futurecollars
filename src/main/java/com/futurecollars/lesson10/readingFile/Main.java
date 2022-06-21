@@ -1,10 +1,15 @@
 package com.futurecollars.lesson10.readingFile;
 
+import java.io.IOException;
+
 public class Main {
 
     public static void main(String[] args) {
-        String text = new FileReader().readFileToString("src/main/java/com/futurecollars/lesson10/data.txt");
-        System.out.println(text);
+        try {
+            System.out.println(new FileReader().readFileToString("src/main/resources/data.txt"));
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 
 }
