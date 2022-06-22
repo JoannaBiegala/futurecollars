@@ -12,13 +12,7 @@ public class SalaryCalculator {
 
     public int getSalary() {
         int basicSalary = new OnlineBasicSalaryConnector().getBasicSalary();
-        if (basicSalary < 0) {
-            throw new IllegalArgumentException("BasicSalary: " + basicSalary);
-        }
         int paymentForSaturday = new OnlinePaymentForSaturdayConnector().getPaymentForSaturday();
-        if (paymentForSaturday < 0) {
-            throw new IllegalArgumentException("PaymentForSaturday: " + paymentForSaturday);
-        }
         return basicSalary + bonus + paymentForSaturday * numberOfWorkedSaturdays;
     }
 

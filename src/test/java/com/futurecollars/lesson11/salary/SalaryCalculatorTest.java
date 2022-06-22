@@ -19,7 +19,7 @@ class SalaryCalculatorTest {
         OnlinePaymentForSaturdayConnector onlinePaymentForSaturdayConnector = Mockito.mock(OnlinePaymentForSaturdayConnector.class);
         Mockito
                 .when(onlinePaymentForSaturdayConnector.getPaymentForSaturday())
-                .thenReturn(1000);
+                .thenReturn(200);
 
         //when
         int salary = new SalaryCalculator(bonus, numberOfSaturdays).getSalary();
