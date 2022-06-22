@@ -1,6 +1,7 @@
 package com.futurecollars.lesson10.everySecondLine;
 
 import java.io.*;
+import java.util.Arrays;
 
 public class EverySecondLineWriter {
 
@@ -18,7 +19,7 @@ public class EverySecondLineWriter {
         } catch (FileNotFoundException e) {
             System.out.println("File " + path + " does not exist");
         } catch (IOException e) {
-            System.out.println("IOException");
+            System.out.println("IOException: " + Arrays.toString(e.getStackTrace()));
         }
     }
 
