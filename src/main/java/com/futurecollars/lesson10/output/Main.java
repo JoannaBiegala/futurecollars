@@ -1,6 +1,5 @@
 package com.futurecollars.lesson10.output;
 
-import java.io.File;
 import java.io.IOException;
 
 public class Main {
