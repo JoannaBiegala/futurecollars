@@ -1,23 +1,19 @@
 package com.futurecollars.lesson10.characterCount;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
 public class CharacterCounter {
 
-    int countCharacters(String path) {
-        String text = "";
+    public static int countCharacters(String path) throws IOException {
         File file = new File(path);
         if (!file.exists()) {
-            System.out.println("File " + path + " does not exist");
+            throw new FileNotFoundException("File " + path + " does not exist");
         }
-        try {
-            text = Files.readString(Path.of(path));
-        } catch (IOException e) {
-            e.getStackTrace();
-        }
+        String text = Files.readString(Path.of(path));
         return text.length();
     }
 
