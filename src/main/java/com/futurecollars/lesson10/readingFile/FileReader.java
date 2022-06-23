@@ -6,7 +6,7 @@ import java.nio.file.Path;
 
 public class FileReader {
 
-    String readFileToString(String path) throws IOException {
+    public static String readFileToString(String path) throws IOException {
         return Files.readString(Path.of(path));
     }
 
