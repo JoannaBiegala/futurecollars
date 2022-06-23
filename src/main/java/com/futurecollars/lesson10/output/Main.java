@@ -1,15 +1,16 @@
 package com.futurecollars.lesson10.output;
 
 import java.io.File;
+import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) {
-        File file = new File("src/main/java/com/futurecollars/lesson10/output/data.txt");
-        if (!file.exists()) {
-            System.out.println("File does not exist");
+        try {
+            WriterToOutputFile.convertToUppercase("src/main/java/com/futurecollars/lesson10/output/data.txt",
+                    "src/main/java/com/futurecollars/lesson10/output/output.txt");
+        } catch (IOException e) {
+            throw new RuntimeException(e);
         }
-        new WriterToOutputFile().convertToUppercase("src/main/java/com/futurecollars/lesson10/output/data.txt",
-                "src/main/java/com/futurecollars/lesson10/output/output.txt");
         System.out.println("Text has been saved to the file");
     }
 }

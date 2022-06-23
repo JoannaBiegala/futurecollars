@@ -7,13 +7,9 @@ import java.nio.file.Paths;
 
 public class WriterToOutputFile {
 
-    void convertToUppercase(String pathToInputFile, String pathToOutputFile) {
-        try {
-            String text = Files.readString(Path.of(pathToInputFile));
-            Files.writeString(Paths.get(pathToOutputFile), text.toUpperCase());
-        } catch (IOException exception) {
-            exception.printStackTrace();
-        }
+    public static void convertToUppercase(String pathToInputFile, String pathToOutputFile) throws IOException {
+        String text = Files.readString(Path.of(pathToInputFile));
+        Files.writeString(Paths.get(pathToOutputFile), text.toUpperCase());
     }
 
 }
