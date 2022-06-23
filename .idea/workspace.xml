@@ -7,6 +7,9 @@
     <list default="true" id="9f90c526-1a59-4163-865c-654d66c0d5b4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson10/output/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson10/output/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson10/output/WriterToOutputFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson10/output/WriterToOutputFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson10/characterCount/CharacterCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson10/characterCount/CharacterCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson10/characterCount/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson10/characterCount/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +65,7 @@
       <recent name="com.futurecollars.lesson7" />
     </key>
   </component>
+
   <component name="RunManager" selected="Application.com.futurecollars.lesson10.output.Main">
     <configuration name="com.futurecollars.lesson10.output.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson10.output.Main" />
@@ -86,6 +90,12 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.futurecollars.lesson8.daysOfWeek" />
       <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson8.daysOfWeek.NameOfTheDayTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TextTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -185,6 +195,17 @@
     </task>
     <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
