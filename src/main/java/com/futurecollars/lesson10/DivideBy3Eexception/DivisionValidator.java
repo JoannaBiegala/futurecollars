@@ -1,7 +1,6 @@
 package com.futurecollars.lesson10.DivideBy3Eexception;
 
 public class DivisionValidator {
-
     public static void validate(int[] values) {
         for (int value : values) {
             try {
@@ -15,5 +14,4 @@ public class DivisionValidator {
             }
         }
     }
-
 }
