@@ -4,8 +4,8 @@ import java.util.Objects;
 
 public class Person implements Comparable<Person> {
 
-    private String firstName;
-    private String lastName;
+    private final String firstName;
+    private final String lastName;
     int yearOfBirth;
     int height;
     int weight;
