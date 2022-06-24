@@ -1,4 +1,4 @@
-package com.futurecollars.lesson8;
+package com.futurecollars.lesson8.message;
 
 public class ConsoleMessage extends Message {
     @Override
