@@ -6,28 +6,28 @@ import org.junit.jupiter.api.Test;
 class TriangleTest {
 
     @Test
-    void getArea() {
+    void shouldBeArea() {
         //given
         double a = 3.0;
         double b = 4.0;
         double c = 5.0;
         double height = 4.0;
         //when
-        double area = new Triangle(a, b, c, height).getArea();
+        double expectedArea = new Triangle(a, b, c, height).getArea();
         //then 6
-        Assertions.assertEquals(6.0, area);
+        Assertions.assertEquals(6.0, expectedArea);
     }
 
     @Test
-    void getPerimeter() {
+    void shouldBePerimeter() {
         //given
         double a = 3.0;
         double b = 4.0;
         double c = 5.0;
         double height = 4.0;
         //when
-        double perimeter = new Triangle(a, b, c, height).getPerimeter();
+        double expectedPerimeter = new Triangle(a, b, c, height).getPerimeter();
         //then
-        Assertions.assertEquals(12.0, perimeter);
+        Assertions.assertEquals(12.0, expectedPerimeter);
     }
 }
