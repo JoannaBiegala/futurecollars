@@ -6,22 +6,22 @@ import org.junit.jupiter.api.Test;
 class GeometricFigureCircleTest {
 
     @Test
-    void getArea() {
+    void shouldBeArea() {
         //given
         double radius = 2.0;
         //when
-        double area = new GeometricFigureCircle(radius).getArea();
+        double expectedArea = new GeometricFigureCircle(radius).getArea();
         //then
-        Assertions.assertEquals(12.56, area);
+        Assertions.assertEquals(12.56, expectedArea);
     }
 
     @Test
-    void getPerimeter() {
+    void shouldBePerimeter() {
         //given
         double radius = 2.0;
         //when
-        double perimeter = new GeometricFigureCircle(radius).getPerimeter();
+        double expectedPerimeter = new GeometricFigureCircle(radius).getPerimeter();
         //then
-        Assertions.assertEquals(12.56, perimeter);
+        Assertions.assertEquals(12.56, expectedPerimeter);
     }
 }
