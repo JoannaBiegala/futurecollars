@@ -1,8 +1,8 @@
 package com.futurecollars.lesson8.shapes;
 
 public class GeometricFigureCircle implements GeometricFigure {
-    private final double pi = 3.14;
-    double radius;
+    private final double PI = 3.14;
+    private final double radius;
 
     public GeometricFigureCircle(double radius) {
         this.radius = radius;
@@ -10,12 +10,12 @@ public class GeometricFigureCircle implements GeometricFigure {
 
     @Override
     public double getPerimeter() {
-        return 2 * pi * radius;
+        return 2 * PI * radius;
 
     }
 
     @Override
     public double getArea() {
-        return pi * radius * radius;
+        return PI * radius * radius;
     }
 }
