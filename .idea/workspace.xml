@@ -22,15 +22,12 @@
       <list>
         <option value="Enum" />
         <option value="JUnit5 Test Class" />
-        <option value="Interface" />
-        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Java_Collections/task2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,10 +52,6 @@
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\PC\IdeaProjects\futurecollars\src\main\java\com\futurecollars\lesson10" />
-      <recent name="C:\Users\PC\IdeaProjects\futurecollars\src\main\java\com\futurecollars\lesson10\data" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.futurecollars.lesson9.calculator" />
@@ -217,6 +210,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="refactoring code" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="refactoring code" />
     <option name="LAST_COMMIT_MESSAGE" value="refactoring code" />
