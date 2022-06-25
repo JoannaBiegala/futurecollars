@@ -7,20 +7,19 @@ public class Manager extends BaseEmployee {
     private int bonus;
 
     public Manager(String firstName, String lastName, int yearOfEmployment) {
-        super(firstName, lastName, yearOfEmployment);
-        setBasicSalary(DEFAULT_SALARY);
-        setBonus(DEFAULT_BONUS);
+        super(firstName, lastName, DEFAULT_SALARY, yearOfEmployment);
+        this.bonus = DEFAULT_BONUS;
     }
 
     public Manager(String firstName, String lastName, int basicSalary, int yearOfEmployment) {
         super(firstName, lastName, basicSalary, yearOfEmployment);
-        setBonus(DEFAULT_BONUS);
+        this.bonus = DEFAULT_BONUS;
 
     }
 
     public Manager(String firstName, String lastName, int basicSalary, int yearOfEmployment, int bonus) {
         super(firstName, lastName, basicSalary, yearOfEmployment);
-        setBonus(DEFAULT_BONUS);
+        this.bonus = bonus;
     }
 
     public int getBonus() {
