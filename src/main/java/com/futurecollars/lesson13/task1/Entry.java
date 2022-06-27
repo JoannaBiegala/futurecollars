@@ -2,11 +2,11 @@ package com.futurecollars.lesson13.task1;
 
 import java.util.Objects;
 
-public class Entry<K,V> {
+public class Entry {
     String key;
     String value;
 
-    public Entry(String key, String value){
+    public Entry(String key, String value) {
         this.key = key;
         this.value = value;
     }
@@ -31,7 +31,7 @@ public class Entry<K,V> {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Entry<?, ?> entry = (Entry<?, ?>) o;
+        Entry entry = (Entry) o;
         return getKey().equals(entry.getKey());
     }
 
