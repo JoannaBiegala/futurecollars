@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f90c526-1a59-4163-865c-654d66c0d5b4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson10/data/FileWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson10/data/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson13/task3/GenericList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson13/task3/OwnList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson10/squareRoot/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson10/squareRoot/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson10/squareRoot/SquareRootCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson10/squareRoot/SquareRootCalculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,12 +20,15 @@
         <option value="Enum" />
         <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map />
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
