@@ -26,6 +26,16 @@ class FizzBuzzPlayerTest {
     }
 
     @Test
+    void shouldBeNumber() {
+        //given
+        int number = 23;
+        //when
+        String expectNumber = new FizzBuzzPlayer().addNumber(number);
+        //then
+        Assertions.assertEquals("23", expectNumber);
+    }
+
+    @Test
     void shouldBeCreatedText() {
         //given
         int range = 100;
