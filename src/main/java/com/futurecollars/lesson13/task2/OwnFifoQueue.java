@@ -3,6 +3,7 @@ package com.futurecollars.lesson13.task2;
 import java.util.LinkedList;
 
 public class OwnFifoQueue implements OwnQueue {
+
     private final LinkedList<Integer> list = new LinkedList<>();
 
     @Override
