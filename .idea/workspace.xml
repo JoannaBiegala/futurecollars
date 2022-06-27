@@ -28,8 +28,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-      </map>
+      <map />
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -134,7 +133,6 @@
         <item itemvalue="JUnit.TextTest.getPalindromeLength" />
         <item itemvalue="JUnit.TextTest" />
         <item itemvalue="JUnit.NameOfTheDayTest" />
-        <item itemvalue="Application.com.futurecollars.lesson10.output.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -215,16 +213,6 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="refactoring code" />
     <option name="LAST_COMMIT_MESSAGE" value="refactoring code" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/futurecollars$com_futurecollars_lesson10_in_futurecollars.ic" NAME="com.futurecollars.lesson10 in futurecollars Coverage Results" MODIFIED="1655110626321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.futurecollars.lesson10.*</FILTER>
-    </SUITE>
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/futurecollars$com_futurecollars_lesson10_in_futurecollars.ic" NAME="com.futurecollars.lesson10 in futurecollars Coverage Results" MODIFIED="1655110626321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.futurecollars.lesson10.*</FILTER>
-    </SUITE>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/futurecollars$com_futurecollars_lesson10_in_futurecollars.ic" NAME="com.futurecollars.lesson10 in futurecollars Coverage Results" MODIFIED="1655110626321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
