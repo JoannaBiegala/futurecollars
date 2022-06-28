@@ -11,7 +11,7 @@ class CalculatorTest {
         Operation addition = new Addition();
         int[] numbers = {2, 3, 4, 5};
         //when
-        int shouldBeSum = new Calculator().runCalculator(addition, numbers);
+        int shouldBeSum = addition.calculate(numbers);
         //then
         Assertions.assertEquals(14, shouldBeSum);
     }
@@ -22,7 +22,7 @@ class CalculatorTest {
         Operation subtraction = new Subtraction();
         int[] numbers = {12, 3, 4};
         //when
-        int shouldBeDifference = new Calculator().runCalculator(subtraction, numbers);
+        int shouldBeDifference = subtraction.calculate(numbers);
         //then
         Assertions.assertEquals(5, shouldBeDifference);
     }
@@ -33,7 +33,7 @@ class CalculatorTest {
         Operation multiplication = new Multiplication();
         int[] numbers = {2, 3};
         //when
-        int shouldBeProduct = new Calculator().runCalculator(multiplication, numbers);
+        int shouldBeProduct = multiplication.calculate(numbers);
         //then
         Assertions.assertEquals(6, shouldBeProduct);
     }
@@ -44,7 +44,7 @@ class CalculatorTest {
         Operation division = new Division();
         int[] numbers = {12, 3, 2};
         //when
-        int shouldBeQuotient = new Calculator().runCalculator(division, numbers);
+        int shouldBeQuotient = division.calculate(numbers);
         //then
         Assertions.assertEquals(2, shouldBeQuotient);
     }
