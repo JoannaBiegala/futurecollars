@@ -3,34 +3,36 @@ package com.futurecollars.lesson13.task3;
 import java.util.ArrayList;
 import java.util.List;
 
-public class GenericList<E> implements OwnList{
+public class GenericList<E> implements OwnList<E> {
 
-    private static final int DEFAULT_CAPACITY = 10;
-
-    public E element;
     List<E> list;
 
     public GenericList() {
-        list = new ArrayList<E>(DEFAULT_CAPACITY);
+        list = new ArrayList<>(DEFAULT_CAPACITY);
     }
 
     @Override
     public boolean add(Object o) {
-        return false;
+        return list.add((E) o);
     }
 
     @Override
-    public Object get(int index) {
-        return null;
+    public E get(int index) {
+        if (index > size()) {
+            return null;
+        } else {
+            return (list.get(index));
+        }
     }
 
     @Override
     public boolean remove(Object o) {
-        return false;
+        return list.remove((E) o);
     }
 
     @Override
     public int size() {
-        return 0;
+        return list.size();
     }
+
 }

@@ -11,4 +11,5 @@ public interface OwnList<E> {
     boolean remove(E o);
 
     int size();
+
 }
