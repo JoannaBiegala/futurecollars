@@ -14,42 +14,32 @@ public class TrainingEffectivenessChecker {
     private int getWeightOfTrainingLength() {
         if (trainingLength < 30) {
             return 1;
-        }
-        if (trainingLength >= 30 && trainingLength <= 60) {
+        } else if (trainingLength <= 60) {
             return 2;
-        }
-        if (trainingLength > 60) {
+        } else {
             return 3;
         }
-        return 0;
     }
 
     private int getWeightOfNumberOfCaloriesBurned() {
         if (numberOfCaloriesBurned <= 300) {
             return 1;
-        }
-        if (numberOfCaloriesBurned > 300 && numberOfCaloriesBurned < 400) {
+        } else if (numberOfCaloriesBurned < 400) {
             return 2;
-        }
-        if (numberOfCaloriesBurned >= 400) {
+        } else {
             return 3;
         }
-        return 0;
     }
 
     private int getWeightOfAverageHeartRate() {
         if (averageHeartRate < 160) {
             return 1;
-        }
-        if (averageHeartRate >= 160 && averageHeartRate <= 175) {
+        } else if (averageHeartRate <= 175) {
             return 2;
-        }
-        if (averageHeartRate > 175) {
+        } else {
             return 3;
         }
-        return 0;
     }
-
 
     public String getLevelOfTrainingEffectiveness() {
         int totalWeight = getWeightOfTrainingLength() + 2 * getWeightOfNumberOfCaloriesBurned()
@@ -57,17 +47,13 @@ public class TrainingEffectivenessChecker {
         double weightedAverage = totalWeight / 6.0;
         if (weightedAverage < 1.2) {
             return "Training - low";
-        }
-        if (weightedAverage >= 1.2 && weightedAverage < 2.0) {
+        } else if (weightedAverage < 2.0) {
             return "Training - good";
-        }
-        if (weightedAverage >= 2.0 && weightedAverage < 3.0) {
+        } else if (weightedAverage < 3.0) {
             return "Training - very good";
-        }
-        if (weightedAverage == 3) {
+        } else {
             return "Training - perfect";
         }
-        return "Error: Weighted Average is off scale";
     }
 
 }
