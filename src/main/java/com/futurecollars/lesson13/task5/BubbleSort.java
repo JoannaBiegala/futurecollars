@@ -1,30 +1,27 @@
 package com.futurecollars.lesson13.task5;
 
-import java.util.Arrays;
+public class BubbleSort<E extends Comparable<E>> {
 
-public class GenericBubbleSort<T> {
+    E[] table;
 
-    T[] table;
-
-    public GenericBubbleSort(T[] table) {
+    public BubbleSort(E[] table) {
         this.table = table;
+    }
+
+    public boolean compareTo(E e1, E e2) {
+        return e1.compareTo(e2) > 0;
     }
 
     public void bubbleSort() {
         for (int i = 0; i < table.length; i++) {
             for (int j = 0; j < table.length - 1; j++) {
-                if (table[j].hashCode() > table[j + 1].hashCode()) {
-                    T temp = table[j + 1];
+                if (compareTo(table[j], table[j + 1])) {
+                    E temp = table[j + 1];
                     table[j + 1] = table[j];
                     table[j] = temp;
                 }
             }
         }
-    }
-
-    @Override
-    public int hashCode() {
-        return Arrays.hashCode(table);
     }
 
 }
