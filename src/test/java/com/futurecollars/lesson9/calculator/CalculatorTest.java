@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 class CalculatorTest {
 
     @Test
-    void shouldBeSum() {
+    void shouldSumNumbers() {
         //given
         Operation addition = new Addition();
         int[] numbers = {2, 3, 4, 5};
@@ -17,7 +17,7 @@ class CalculatorTest {
     }
 
     @Test
-    void shouldBeDifference() {
+    void shouldSubtractNumbers() {
         //given
         Operation subtraction = new Subtraction();
         int[] numbers = {12, 3, 4};
@@ -28,7 +28,7 @@ class CalculatorTest {
     }
 
     @Test
-    void shouldBeProduct() {
+    void shouldMultiplyNumbers() {
         //given
         Operation multiplication = new Multiplication();
         int[] numbers = {2, 3};
@@ -39,7 +39,7 @@ class CalculatorTest {
     }
 
     @Test
-    void shouldBeQuotient() {
+    void shouldDivideNumbers() {
         //given
         Operation division = new Division();
         int[] numbers = {12, 3, 2};
