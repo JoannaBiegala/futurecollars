@@ -23,8 +23,10 @@ class LengthCalculatorTest {
         return Stream.of(
                 Arguments.of("Ala", 3),
                 Arguments.of("Kotek", 5),
-                Arguments.of("", 0)
+                Arguments.of("", 0),
+                Arguments.of(null, 0)
         );
     }
+
 
 }
