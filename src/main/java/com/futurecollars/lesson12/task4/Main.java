@@ -1,12 +1,12 @@
 package com.futurecollars.lesson12.task4;
 
-import java.util.Set;
+import java.util.Comparator;
 import java.util.TreeSet;
 
 public class Main {
 
     public static void main(String[] args) {
-        Set<Person> persons = new TreeSet<>();
+        TreeSet<Person> persons = new TreeSet<>();
         Person person1 = new Person("Anna", "Nowak", 1999, 170, 60);
         Person person2 = new Person("Hanna", "Nowakowska", 1989, 170, 67);
         Person person3 = new Person("Joanna", "Malinowska", 2000, 175, 70);
@@ -18,17 +18,27 @@ public class Main {
         persons.add(person4);
         persons.add(person5);
 
-        HeightComparator heightComparator = new HeightComparator();
-        heightComparator.personsSorted.addAll(persons);
-        System.out.println("The persons sorted by height");
-        heightComparator.displayPersons();
+        TreeSet<Person> personsSortedByHeight = new TreeSet<>
+                (Comparator.comparingInt(Person::getHeight).thenComparingInt(System::identityHashCode));
+        personsSortedByHeight.addAll(persons);
+        printPersons(personsSortedByHeight, "height");
 
-        WeightComparator weightComparator = new WeightComparator();
-        weightComparator.personsSorted.addAll(persons);
-        System.out.println("The persons sorted by weight (reverse)");
-        weightComparator.displayPersons();
+        TreeSet<Person> personsSortedByWeight = new TreeSet<>((o1, o2) -> {
+            int result = Integer.compare(o2.getWeight(), o1.getWeight());
+            if (result == 0) {
+                result = Integer.compare(System.identityHashCode(o1),
+                        System.identityHashCode(o2));
+            }
+            return result;
+        });
+        personsSortedByWeight.addAll(persons);
+        printPersons(personsSortedByWeight, "weight reverse");
 
-        System.out.println("The persons sorted by age (default and reverse)");
+        printPersons(persons, "age (default and reverse)");
+    }
+
+    public static void printPersons(TreeSet<Person> persons, String order) {
+        System.out.println("The persons sorted by " + order);
         for (Person person : persons) {
             System.out.println(person);
         }

@@ -6,9 +6,9 @@ public class Person implements Comparable<Person> {
 
     private final String firstName;
     private final String lastName;
-    int yearOfBirth;
-    int height;
-    int weight;
+    private final int yearOfBirth;
+    private final int height;
+    private final int weight;
 
     public Person(String firstName, String lastName, int yearOfBirth, int height, int weight) {
         this.firstName = firstName;
@@ -37,6 +37,7 @@ public class Person implements Comparable<Person> {
     public int getWeight() {
         return weight;
     }
+
 
     @Override
     public String toString() {
