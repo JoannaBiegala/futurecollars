@@ -5,15 +5,11 @@ import java.util.List;
 
 public class GenericList<E> implements OwnList<E> {
 
-    List<E> list;
-
-    public GenericList() {
-        list = new ArrayList<>(DEFAULT_CAPACITY);
-    }
+    List<E> list = new ArrayList<>(DEFAULT_CAPACITY);
 
     @Override
-    public boolean add(Object o) {
-        return list.add((E) o);
+    public boolean add(E o) {
+        return list.add(o);
     }
 
     @Override
@@ -26,8 +22,8 @@ public class GenericList<E> implements OwnList<E> {
     }
 
     @Override
-    public boolean remove(Object o) {
-        return list.remove((E) o);
+    public boolean remove(E o) {
+        return list.remove(o);
     }
 
     @Override
