@@ -11,9 +11,8 @@ public class Main {
         patterns.put("Liczby zmiennoprzecinkowe: ","\\d+[.]+\\d+");
         patterns.put("liczby w notacji naukowej: ","\\d+[.]+\\d+\\D+\\d+");
 
-        NumbersSelectedByPattern numbersSelectedByPattern = new NumbersSelectedByPattern(patterns);
-        numbersSelectedByPattern.readNumbersFromFile();
-        numbersSelectedByPattern.validateNumbers();
+        ValidateNumbers validateNumbers = new ValidateNumbers(patterns);
+        validateNumbers.validateNumbersByPatterns();
     }
 
 }
