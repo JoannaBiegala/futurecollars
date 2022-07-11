@@ -2,14 +2,9 @@ package com.futurecollars.lesson12.task3;
 
 public class DoublyLinkedList {
 
-    Node head;
-    Node tail;
-    int length;
-
-    public DoublyLinkedList() {
-        head = tail = null;
-        length = 0;
-    }
+    private Node head;
+    private Node tail;
+    private int length;
 
     int getLength() {
         return this.length;
@@ -38,55 +33,61 @@ public class DoublyLinkedList {
     }
 
     void add(int index, String value) {
-        if (index > length + 1 || index <= 0) {
+        if (index > length || index < 0) {
             throw new IllegalArgumentException("The incorrect index " + index + " the length of list:" + length);
         }
-        if (index == 1 && head == null) {
+        if (index == 0 && head == null) {
             head = tail = new Node(value, null, null);
             length++;
             return;
         }
-        if (index == 1) {
+        if (index == 0) {
             addToHead(value);
             return;
         }
-        Node nodeBeforeAdd = head;
-        for (int i = 1; i < index; i++) {
-            nodeBeforeAdd = nodeBeforeAdd.nextNode;
-        }
+        Node nodeBeforeAdd = findNodeBeforeOperation(index);
         Node node = new Node(value, nodeBeforeAdd, nodeBeforeAdd.nextNode);
         Node nodeAfterAdd = nodeBeforeAdd.nextNode;
         nodeBeforeAdd.nextNode = node;
-        nodeAfterAdd.previousNode = node;
-        if (index == length + 1) {
+        if (nodeAfterAdd != null) {
+            nodeAfterAdd.previousNode = node;
+        }
+        if (index == length - 1) {
             tail = node;
         }
         length++;
     }
 
     void removeNode(int index) {
-        if (index > length || index <= 0) {
+        if (index > length || index < 0) {
             throw new IllegalArgumentException("The incorrect index " + index + " the length of list:" + length);
         }
-        if (index == 1 && length == 1) {
+        if (index == 0 && length == 1) {
             head = tail = null;
             length--;
             return;
         }
-        Node nodeBeforeDelete = head;
-        for (int i = 1; i < index; i++) {
-            nodeBeforeDelete = nodeBeforeDelete.nextNode;
-        }
+        Node nodeBeforeDelete = findNodeBeforeOperation(index);
         Node nodeDelete = nodeBeforeDelete.nextNode;
-        Node nodeAfterDelete = nodeDelete.nextNode;
-        nodeBeforeDelete.nextNode = nodeAfterDelete;
-        if (index == 1) {
-            head = nodeAfterDelete;
-        }
+        Node nodeAfterDelete = null;
         if (index == length - 1) {
             tail = nodeBeforeDelete;
+        } else {
+            nodeAfterDelete = nodeDelete.nextNode;
+        }
+        nodeBeforeDelete.nextNode = nodeAfterDelete;
+        if (index == 0) {
+            head = nodeAfterDelete;
         }
         length--;
+    }
+
+    Node findNodeBeforeOperation(int index) {
+        Node nodeBeforeAdd = head;
+        for (int i = 0; i < index - 1; i++) {
+            nodeBeforeAdd = nodeBeforeAdd.nextNode;
+        }
+        return nodeBeforeAdd;
     }
 
     @Override
@@ -104,6 +105,20 @@ public class DoublyLinkedList {
                 ", length=" + getLength() +
                 ", elements= " + elementsOfList +
                 '}';
+    }
+
+}
+
+class Node {
+
+    String value;
+    Node previousNode;
+    Node nextNode;
+
+    public Node(String value, Node previousNode, Node nextNode) {
+        this.value = value;
+        this.previousNode = previousNode;
+        this.nextNode = nextNode;
     }
 
 }
