@@ -4,10 +4,10 @@ import java.util.List;
 
 public class Pizza {
 
-    String name;
-    List<Ingredient> ingredients;
-    int calories;
-    boolean isVegetarian;
+    private final String name;
+    private final List<Ingredient> ingredients;
+    private final int calories;
+    private final boolean isVegetarian;
 
     public Pizza(String name, List<Ingredient> ingredients, int calories, boolean isVegetarian) {
         this.name = name;
@@ -18,6 +18,14 @@ public class Pizza {
 
     public int getCalories() {
         return calories;
+    }
+
+    public List<Ingredient> getIngredients() {
+        return ingredients;
+    }
+
+    public boolean isVegetarian() {
+        return isVegetarian;
     }
 
     @Override

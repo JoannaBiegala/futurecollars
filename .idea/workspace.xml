@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f90c526-1a59-4163-865c-654d66c0d5b4" name="Changes" comment="refactoring code" />
+    <list default="true" id="9f90c526-1a59-4163-865c-654d66c0d5b4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson15/task2/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson15/task2/Pizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson15/task2/PizzaShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson15/task2/PizzaShop.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="JUnit5 Test Class" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -58,7 +62,7 @@
       <recent name="com.futurecollars.lesson7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.futurecollars.lesson14.task2.Main">
+  <component name="RunManager" selected="Application.com.futurecollars.lesson15.task2.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson10.data.Main" />
       <module name="futurecollars" />
@@ -72,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.futurecollars.lesson14.task2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson14.task2.Main" />
+    <configuration name="com.futurecollars.lesson15.task2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson15.task2.Main" />
       <module name="futurecollars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.futurecollars.lesson14.task2.*" />
+          <option name="PATTERN" value="com.futurecollars.lesson15.task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.futurecollars.lesson15.task2.Main" />
         <item itemvalue="JUnit.TextTest.getPalindromeLengthShouldBeZero" />
         <item itemvalue="JUnit.TextTest.getPalindromeLength" />
         <item itemvalue="JUnit.TextTest" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.com.futurecollars.lesson14.task2.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +209,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657696321710</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="refactoring code">
+      <created>1657696659555</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1657696659555</updated>
+    </task>
+    <task id="LOCAL-00011" summary="initial code">
+      <created>1657711609035</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1657711609035</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -222,9 +240,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="refactoring code" />
-    <MESSAGE value="initial code" />
     <MESSAGE value="refactoring code" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring code" />
+    <MESSAGE value="initial code" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial code" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/futurecollars$com_futurecollars_lesson10_in_futurecollars.ic" NAME="com.futurecollars.lesson10 in futurecollars Coverage Results" MODIFIED="1655110626321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

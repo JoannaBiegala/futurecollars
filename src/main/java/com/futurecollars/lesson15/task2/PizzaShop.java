@@ -43,15 +43,15 @@ public class PizzaShop {
     public void printAllergyPizzas() {
         System.out.println("Allergy Pizzas:");
         pizzas.stream()
-                .filter(pizza -> pizza.ingredients.contains(Ingredient.celery))
+                .filter(pizza -> pizza.getIngredients().contains(Ingredient.celery))
                 .forEach(System.out::println);
     }
 
     public boolean isVegetarianPizzaWithTomatoAndPepper() {
         Pizza result = pizzas
                 .stream()
-                .filter(pizza -> pizza.isVegetarian && pizza.ingredients.contains(Ingredient.tomato)
-                        && pizza.ingredients.contains(Ingredient.pepper))
+                .filter(pizza -> pizza.isVegetarian() && pizza.getIngredients().contains(Ingredient.tomato)
+                        && pizza.getIngredients().contains(Ingredient.pepper))
                 .findAny()
                 .orElse(null);
         return result != null;
@@ -60,7 +60,7 @@ public class PizzaShop {
     public boolean allPizzasContainMozzarella() {
         long count = pizzas
                 .stream()
-                .filter(pizza -> pizza.ingredients.contains(Ingredient.mozzarella))
+                .filter(pizza -> pizza.getIngredients().contains(Ingredient.mozzarella))
                 .count();
         return count == (long) pizzas.size();
     }
