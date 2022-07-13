@@ -9,19 +9,19 @@ import static java.util.stream.Collectors.groupingBy;
 
 public class CinemaHallService {
 
-    List<CinemaHall> cinemaHallList;
-    CinemaHall cinemaHallRelax = new CinemaHall("Relax", CinemaHallType.typ4D);
-    CinemaHall cinemaHallHelios = new CinemaHall("Helios", CinemaHallType.typ3D);
-    CinemaHall cinemaHallLuna = new CinemaHall("Luna", CinemaHallType.typ2D);
-    CinemaHall cinemaHallMultikino = new CinemaHall("Multikino", CinemaHallType.typ3D);
-    CinemaHall cinemaHallImax = new CinemaHall("Imax", CinemaHallType.typ4D);
-    CinemaHall cinemaHallCity = new CinemaHall("City", CinemaHallType.typ4D);
-    CinemaHall cinemaHallCapitol = new CinemaHall("Capitol", CinemaHallType.typ3D);
-    CinemaHall cinemaHallBogoria = new CinemaHall("Bogoria", CinemaHallType.typ2D);
-    CinemaHall cinemaHallPerla = new CinemaHall("Perla", CinemaHallType.typ3D);
-    CinemaHall cinemaHallStudio = new CinemaHall("Studio", CinemaHallType.typ4D);
+    private final List<CinemaHall> cinemaHallList;
 
     public CinemaHallService() {
+        CinemaHall cinemaHallRelax = new CinemaHall("Relax", CinemaHallType.typ4D);
+        CinemaHall cinemaHallHelios = new CinemaHall("Helios", CinemaHallType.typ3D);
+        CinemaHall cinemaHallLuna = new CinemaHall("Luna", CinemaHallType.typ2D);
+        CinemaHall cinemaHallMultikino = new CinemaHall("Multikino", CinemaHallType.typ3D);
+        CinemaHall cinemaHallImax = new CinemaHall("Imax", CinemaHallType.typ4D);
+        CinemaHall cinemaHallCity = new CinemaHall("City", CinemaHallType.typ4D);
+        CinemaHall cinemaHallCapitol = new CinemaHall("Capitol", CinemaHallType.typ3D);
+        CinemaHall cinemaHallBogoria = new CinemaHall("Bogoria", CinemaHallType.typ2D);
+        CinemaHall cinemaHallPerla = new CinemaHall("Perla", CinemaHallType.typ3D);
+        CinemaHall cinemaHallStudio = new CinemaHall("Studio", CinemaHallType.typ4D);
         cinemaHallList = new ArrayList<>(List.of(cinemaHallRelax, cinemaHallHelios,
                 cinemaHallLuna, cinemaHallMultikino, cinemaHallImax, cinemaHallCity,
                 cinemaHallCapitol, cinemaHallBogoria, cinemaHallPerla, cinemaHallStudio));
