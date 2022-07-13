@@ -7,29 +7,29 @@ import java.util.Optional;
 
 public class PizzaShop {
 
-    List<Pizza> pizzas;
-    Pizza pizzaMargherita = new Pizza("Margherita", new ArrayList<>(List.of(Ingredient.mozzarella, Ingredient.tomato, Ingredient.salami)),
-            1500, false);
-    Pizza pizzaCapricciosa = new Pizza("Capricciosa", new ArrayList<>(List.of(Ingredient.mozzarella, Ingredient.mushrooms, Ingredient.salami)),
-            1550, false);
-    Pizza pizzaPepperoni = new Pizza("Pepperoni", new ArrayList<>(List.of(Ingredient.mozzarella, Ingredient.tomato, Ingredient.pepper)),
-            1600, true);
-    Pizza pizzaClassic = new Pizza("Classic", new ArrayList<>(List.of(Ingredient.mozzarella, Ingredient.mushrooms, Ingredient.salami)),
-            1700, false);
-    Pizza pizzaChicken = new Pizza("Chicken", new ArrayList<>(List.of(Ingredient.mozzarella, Ingredient.salami, Ingredient.mushrooms, Ingredient.onion)),
-            1500, false);
-    Pizza pizzaCalzone = new Pizza("Calzone", new ArrayList<>(List.of(Ingredient.salami, Ingredient.mushrooms, Ingredient.celery)),
-            1550, false);
-    Pizza pizzaRegina = new Pizza("Regina", new ArrayList<>(List.of(Ingredient.mozzarella, Ingredient.tomato, Ingredient.onion)),
-            1600, true);
-    Pizza pizzaHawaii = new Pizza("Hawaii", new ArrayList<>(List.of(Ingredient.tomato, Ingredient.mushrooms, Ingredient.salami)),
-            1700, false);
-    Pizza pizzaNeapolitana = new Pizza("Neapolitana", new ArrayList<>(List.of(Ingredient.mozzarella, Ingredient.tomato, Ingredient.celery)),
-            1650, true);
-    Pizza pizzaChicago = new Pizza("Chicago", new ArrayList<>(List.of(Ingredient.salami, Ingredient.mushrooms, Ingredient.celery)),
-            1750, false);
+    private final List<Pizza> pizzas;
 
     public PizzaShop() {
+        Pizza pizzaMargherita = new Pizza("Margherita", new ArrayList<>(List.of(Ingredient.mozzarella, Ingredient.tomato, Ingredient.salami)),
+                1500, false);
+        Pizza pizzaCapricciosa = new Pizza("Capricciosa", new ArrayList<>(List.of(Ingredient.mozzarella, Ingredient.mushrooms, Ingredient.salami)),
+                1550, false);
+        Pizza pizzaPepperoni = new Pizza("Pepperoni", new ArrayList<>(List.of(Ingredient.mozzarella, Ingredient.tomato, Ingredient.pepper)),
+                1600, true);
+        Pizza pizzaClassic = new Pizza("Classic", new ArrayList<>(List.of(Ingredient.mozzarella, Ingredient.mushrooms, Ingredient.salami)),
+                1700, false);
+        Pizza pizzaChicken = new Pizza("Chicken", new ArrayList<>(List.of(Ingredient.mozzarella, Ingredient.salami, Ingredient.mushrooms, Ingredient.onion)),
+                1500, false);
+        Pizza pizzaCalzone = new Pizza("Calzone", new ArrayList<>(List.of(Ingredient.salami, Ingredient.mushrooms, Ingredient.celery)),
+                1550, false);
+        Pizza pizzaRegina = new Pizza("Regina", new ArrayList<>(List.of(Ingredient.mozzarella, Ingredient.tomato, Ingredient.onion)),
+                1600, true);
+        Pizza pizzaHawaii = new Pizza("Hawaii", new ArrayList<>(List.of(Ingredient.tomato, Ingredient.mushrooms, Ingredient.salami)),
+                1700, false);
+        Pizza pizzaNeapolitana = new Pizza("Neapolitana", new ArrayList<>(List.of(Ingredient.mozzarella, Ingredient.tomato, Ingredient.celery)),
+                1650, true);
+        Pizza pizzaChicago = new Pizza("Chicago", new ArrayList<>(List.of(Ingredient.salami, Ingredient.mushrooms, Ingredient.celery)),
+                1750, false);
         pizzas = new ArrayList<>(List.of(pizzaCalzone, pizzaChicago, pizzaCapricciosa,
                 pizzaChicken, pizzaHawaii, pizzaClassic, pizzaMargherita, pizzaNeapolitana, pizzaPepperoni, pizzaRegina));
     }
