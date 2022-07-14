@@ -1,15 +1,23 @@
 package com.futurecollars.lesson13.task3;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class GenericList<E> implements OwnList<E> {
 
-    List<E> list = new ArrayList<>(DEFAULT_CAPACITY);
+    Object[] elements;
+    private int size = 0;
+
+    public GenericList() {
+        this.elements = new Object[DEFAULT_CAPACITY];
+    }
 
     @Override
     public boolean add(E o) {
-        return list.add(o);
+        if (size() > DEFAULT_CAPACITY) {
+            return false;
+        } else {
+            elements[size()] = o;
+            size++;
+            return true;
+        }
     }
 
     @Override
@@ -17,18 +25,27 @@ public class GenericList<E> implements OwnList<E> {
         if (index > size()) {
             return null;
         } else {
-            return (list.get(index));
+            return (E) elements[index];
         }
     }
 
     @Override
     public boolean remove(E o) {
-        return list.remove(o);
+        for (int index = 0; index < size(); index++) {
+            if (elements[index] == o) {
+                if (size() - index >= 0) System.arraycopy(elements, index + 1, elements, index, size() - index);
+                elements[size() - 1] = null;
+                size--;
+                return true;
+            }
+
+        }
+        return false;
     }
 
     @Override
     public int size() {
-        return list.size();
+        return size;
     }
 
 }
