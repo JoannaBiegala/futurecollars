@@ -7,8 +7,7 @@
     <list default="true" id="9f90c526-1a59-4163-865c-654d66c0d5b4" name="Changes" comment="initial code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson14/task1/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson14/task1/Contact.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson14/task1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson14/task1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson14/task1/PhoneBookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson14/task1/PhoneBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson14/task1/PhoneBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson14/task1/PhoneBook.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
