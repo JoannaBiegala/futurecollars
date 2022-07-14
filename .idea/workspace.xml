@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f90c526-1a59-4163-865c-654d66c0d5b4" name="Changes" comment="refactoring code">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson15/task4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson15/task4/SpecialistDoctors.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson15/task4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson15/task4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson15/task4/SpecialistDoctors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson15/task4/SpecialistDoctors.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657696321710</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="initial code">
+      <created>1657821940705</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1657821940705</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -226,16 +233,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="refactoring code" />
-    <MESSAGE value="initial code" />
     <MESSAGE value="refactoring code" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring code" />
+    <MESSAGE value="initial code" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/futurecollars/lesson15/task4/Main.java</url>
-          <line>6</line>
+          <line>11</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
