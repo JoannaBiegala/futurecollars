@@ -82,7 +82,7 @@ public class DoublyLinkedList {
         length--;
     }
 
-    Node findNodeBeforeOperation(int index) {
+    private Node findNodeBeforeOperation(int index) {
         Node nodeBeforeAdd = head;
         for (int i = 0; i < index - 1; i++) {
             nodeBeforeAdd = nodeBeforeAdd.nextNode;
@@ -107,18 +107,19 @@ public class DoublyLinkedList {
                 '}';
     }
 
-}
 
-class Node {
+    private static class Node {
 
-    String value;
-    Node previousNode;
-    Node nextNode;
+        private final String value;
+        private Node previousNode;
+        private Node nextNode;
 
-    public Node(String value, Node previousNode, Node nextNode) {
-        this.value = value;
-        this.previousNode = previousNode;
-        this.nextNode = nextNode;
+        private Node(String value, Node previousNode, Node nextNode) {
+            this.value = value;
+            this.previousNode = previousNode;
+            this.nextNode = nextNode;
+        }
+
     }
 
 }
