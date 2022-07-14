@@ -10,7 +10,7 @@ public class Main {
         boolean runApp = true;
         Scanner scanner = new Scanner(System.in);
         String option;
-        int[] numbers = new int[0];
+        int[] numbers;
         do {
             System.out.println("Insert sign operation you want to perform ( 0 - terminate the calculator ) ");
             do {
@@ -27,8 +27,8 @@ public class Main {
                     System.out.println("Insert number: ");
                     numbers[index] = scanner.nextInt();
                 }
+                System.out.println("Result: " + calculator.runCalculator(option.charAt(0), numbers) + "\n");
             }
-            System.out.println("Result: " + calculator.runCalculator(option, numbers) + "\n");
         } while (runApp);
     }
 

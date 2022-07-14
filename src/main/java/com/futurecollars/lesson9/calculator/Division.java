@@ -12,8 +12,8 @@ public class Division implements Operation {
     }
 
     @Override
-    public String getSign() {
-        return "/";
+    public char getSign() {
+        return '/';
     }
 
 }

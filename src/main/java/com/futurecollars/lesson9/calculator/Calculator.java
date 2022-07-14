@@ -8,13 +8,13 @@ public class Calculator {
         this.operations = operations;
     }
 
-    public int runCalculator(String sign, int... numbers) {
+    public int runCalculator(char sign, int... numbers) {
         for (Operation operation : operations) {
-            if (sign.equals(operation.getSign())) {
+            if (operation.getSign() == sign) {
                 return operation.calculate(numbers);
             }
         }
-        return 0;
+        throw new IllegalArgumentException();
     }
 
 }
