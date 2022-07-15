@@ -2,10 +2,10 @@ package com.futurecollars.lesson8.shapes;
 
 public class Triangle extends Shape {
     // a,b,c -  the sides of the triangle
-    double a;
-    double b;
-    double c;
-    double height;
+    private final double a;
+    private final double b;
+    private final double c;
+    private final double height;
 
     public Triangle(double a, double b, double c, double height) {
         this.a = a;
