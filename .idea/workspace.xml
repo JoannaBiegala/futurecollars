@@ -78,6 +78,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+
     <configuration name="com.futurecollars.lesson14.task2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson14.task2.Main" />
       <module name="futurecollars" />
@@ -173,7 +174,7 @@
       <option name="project" value="LOCAL" />
       <updated>1655461936425</updated>
     </task>
-   <task id="LOCAL-00006" summary="refactoring code">
+  <task id="LOCAL-00006" summary="refactoring code">
       <created>1655977830962</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
@@ -231,6 +232,22 @@
     <SUITE FILE_PATH="coverage/futurecollars$com_futurecollars_lesson10_in_futurecollars.ic" NAME="com.futurecollars.lesson10 in futurecollars Coverage Results" MODIFIED="1655110626321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.futurecollars.lesson10.*</FILTER>
     </SUITE>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/futurecollars/lesson11/salary/SalaryCalculator.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/futurecollars/lesson11/salary/SalaryCalculator.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/futurecollars$com_futurecollars_lesson10_in_futurecollars.ic" NAME="com.futurecollars.lesson10 in futurecollars Coverage Results" MODIFIED="1655110626321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
