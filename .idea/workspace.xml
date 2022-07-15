@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f90c526-1a59-4163-865c-654d66c0d5b4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/futurecollars/lesson11/lenghtOfText/lengthOfText/LengthCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/futurecollars/lesson11/lenghtOfText/lengthOfText/LengthCalculatorTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="9f90c526-1a59-4163-865c-654d66c0d5b4" name="Changes" comment="refactoring code" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,11 +26,12 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="29eXgpcP2yC7jxtZARBCR4I53q4" />
+  <component name="ProjectId" id="2BsYObN9uaPJt3LZXZ3Y7VMijNd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -46,6 +44,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/PC/IdeaProjects/futurecollars&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
 }</component>
@@ -53,79 +52,90 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\PC\IdeaProjects\futurecollars\src\main\java\com\futurecollars\lesson10\finder" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.futurecollars.lesson11.lenghtOfText.lengthOfText" />
-      <recent name="com.futurecollars.lesson11.bigLetters" />
-      <recent name="com.futurecollars.lesson11.numbers" />
+      <recent name="com.futurecollars.lesson9.calculator" />
       <recent name="com.futurecollars.lesson9" />
       <recent name="com.futurecollars.lesson7" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LengthCalculatorTest.shouldBeLengthOfText">
-    <configuration name="LengthCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.com.futurecollars.lesson14.task2.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson10.data.Main" />
       <module name="futurecollars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.futurecollars.lesson11.lenghtOfText.lengthOfText.*" />
+          <option name="PATTERN" value="com.futurecollars.lesson10.data.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.futurecollars.lesson11.lenghtOfText.lengthOfText" />
-      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson11.lenghtOfText.lengthOfText.LengthCalculatorTest" />
+      <option name="PACKAGE_NAME" value="com.futurecollars.lesson9.fizzBuzz" />
+      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson9.fizzBuzz.FizzBuzzPlayerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LengthCalculatorTest.shouldBeLengthOfText" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="com.futurecollars.lesson14.task2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson14.task2.Main" />
       <module name="futurecollars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.futurecollars.lesson11.lenghtOfText.lengthOfText.*" />
+          <option name="PATTERN" value="com.futurecollars.lesson14.task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.futurecollars.lesson11.lenghtOfText.lengthOfText" />
-      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson11.lenghtOfText.lengthOfText.LengthCalculatorTest" />
-      <option name="METHOD_NAME" value="shouldBeLengthOfText(java.lang.String,int)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
+     <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EmployeeTest.shouldRetrieveBaseSalaryWithBonus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="futurecollars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.futurecollars.lesson5.task4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.futurecollars.lesson5.task4" />
+      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson5.task4.EmployeeTest" />
+      <option name="METHOD_NAME" value="shouldRetrieveBaseSalaryWithBonus" />
+      <option name="TEST_OBJECT" value="method" />
+      <configuration name="TextTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextTest.getPalindromeLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FizzBuzzPlayerTest.shouldBeNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="futurecollars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.futurecollars.lesson9.*" />
+          <option name="PATTERN" value="com.futurecollars.lesson9.fizzBuzz.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.futurecollars.lesson9" />
-      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson9.TextTest" />
-      <option name="METHOD_NAME" value="getPalindromeLength" />
+      <option name="PACKAGE_NAME" value="com.futurecollars.lesson9.fizzBuzz" />
+      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson9.fizzBuzz.FizzBuzzPlayerTest" />
+      <option name="METHOD_NAME" value="shouldBeNumber" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextTest.getPalindromeLengthShouldBeZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SumOfDigitsCheckerTest.shouldBeSumOfDigits" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="futurecollars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.futurecollars.lesson9.*" />
+          <option name="PATTERN" value="com.futurecollars.lesson11.numbers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.futurecollars.lesson9" />
-      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson9.TextTest" />
-      <option name="METHOD_NAME" value="getPalindromeLengthShouldBeZero" />
+      <option name="PACKAGE_NAME" value="com.futurecollars.lesson11.numbers" />
+      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson11.numbers.SumOfDigitsCheckerTest" />
+      <option name="METHOD_NAME" value="shouldBeSumOfDigits(int,int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -133,43 +143,21 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LengthCalculatorTest.shouldBeLengthOfText" />
-        <item itemvalue="JUnit.LengthCalculatorTest" />
-        <item itemvalue="JUnit.TextTest.getPalindromeLengthShouldBeZero" />
+       <item itemvalue="JUnit.TextTest.getPalindromeLengthShouldBeZero" />
         <item itemvalue="JUnit.TextTest.getPalindromeLength" />
         <item itemvalue="JUnit.TextTest" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.com.futurecollars.lesson14.task2.Main" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="9f90c526-1a59-4163-865c-654d66c0d5b4" name="Changes" comment="" />
-      <created>1653474641989</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1653474641989</updated>
-    </task>
-    <task id="LOCAL-00001" summary="initial commit">
-      <created>1654251172183</created>
+    <task id="LOCAL-00001" summary="refactoring code">
+      <created>1656351415189</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1654251172183</updated>
-    </task>
-    <task id="LOCAL-00002" summary="initial commit">
-      <created>1654252456010</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1654252456010</updated>
-    </task>
-    <task id="LOCAL-00003" summary="initial commit">
-      <created>1654263727300</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1654263727300</updated>
+      <updated>1656351415189</updated>
     </task>
     <task id="LOCAL-00004" summary="refactoring code">
       <created>1655461801462</created>
@@ -185,14 +173,35 @@
       <option name="project" value="LOCAL" />
       <updated>1655461936425</updated>
     </task>
-    <task id="LOCAL-00006" summary="add dependencies">
-      <created>1655483738358</created>
+   <task id="LOCAL-00006" summary="refactoring code">
+      <created>1655977830962</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1655483738358</updated>
+      <updated>1655977830962</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="refactoring code">
+      <created>1656051067099</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1656051067099</updated>
+    </task>
+   <task id="LOCAL-00008" summary="initial code">
+      <created>1656580268342</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1656580268342</updated>
+    </task>
+    <task id="LOCAL-00009" summary="refactoring code">
+      <created>1657696321710</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1657696321710</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -208,8 +217,20 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <MESSAGE value="add dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="add dependencies" />
+    <MESSAGE value="refactoring code" />
+    <MESSAGE value="initial code" />
+    <MESSAGE value="refactoring code" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring code" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/futurecollars$com_futurecollars_lesson10_in_futurecollars.ic" NAME="com.futurecollars.lesson10 in futurecollars Coverage Results" MODIFIED="1655110626321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.futurecollars.lesson10.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/futurecollars$com_futurecollars_lesson10_in_futurecollars.ic" NAME="com.futurecollars.lesson10 in futurecollars Coverage Results" MODIFIED="1655110626321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.futurecollars.lesson10.*</FILTER>
+    </SUITE>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/futurecollars$com_futurecollars_lesson10_in_futurecollars.ic" NAME="com.futurecollars.lesson10 in futurecollars Coverage Results" MODIFIED="1655110626321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
