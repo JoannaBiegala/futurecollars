@@ -6,13 +6,13 @@ import org.junit.jupiter.api.Test;
 class ConvertToUppercaseTest {
 
     @Test
-    void formatText() {
+    void ShouldBeUppercaseTest() {
         //given
         String text = "Ala ma kota";
         //when
-        String ShouldBeUppercaseTest = new ToUppercaseConverter().formatText(text);
+        String expectedUppercaseTest = new ToUppercaseConverter().formatText(text);
         //then
-        Assertions.assertEquals("ALA MA KOTA", ShouldBeUppercaseTest);
+        Assertions.assertEquals("ALA MA KOTA", expectedUppercaseTest);
     }
 
 }
