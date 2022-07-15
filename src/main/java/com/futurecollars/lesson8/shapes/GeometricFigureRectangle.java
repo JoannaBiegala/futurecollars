@@ -1,8 +1,8 @@
 package com.futurecollars.lesson8.shapes;
 
 public class GeometricFigureRectangle implements GeometricFigure {
-    double width;
-    double height;
+    private final double width;
+    private final double height;
 
     public GeometricFigureRectangle(double width, double height) {
         this.width = width;
