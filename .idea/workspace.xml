@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< Java_Collections_2/task_4
+    <list default="true" id="9f90c526-1a59-4163-865c-654d66c0d5b4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson13/task4/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson13/task4/Pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson13/task4/Pair.java" afterDir="false" />
+    </list>
+=======
     <list default="true" id="9f90c526-1a59-4163-865c-654d66c0d5b4" name="Changes" comment="refactoring code" />
+>>>>>>> main
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,7 +30,11 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
+<<<<<<< Java_Collections_2/task_4
+        <entry key="$PROJECT_DIR$" value="main" />
+=======
         <entry key="$PROJECT_DIR$" value="Mockito/SalaryCalculator" />
+>>>>>>> main
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -62,7 +74,11 @@
       <recent name="com.futurecollars.lesson7" />
     </key>
   </component>
+<<<<<<< Java_Collections_2/task_4
+  <component name="RunManager" selected="Application.com.futurecollars.lesson13.task4.Main">
+=======
   <component name="RunManager" selected="Application.com.futurecollars.lesson14.task2.Main">
+>>>>>>> main
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson10.data.Main" />
       <module name="futurecollars" />
@@ -79,6 +95,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< Java_Collections_2/task_4
+    <configuration name="com.futurecollars.lesson13.task4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson13.task4.Main" />
+      <module name="futurecollars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.futurecollars.lesson13.task4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+=======
     <configuration name="com.futurecollars.lesson14.task2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson14.task2.Main" />
       <module name="futurecollars" />
@@ -89,6 +117,7 @@
         </pattern>
       </extension>
      <method v="2">
+>>>>>>> main
         <option name="Make" enabled="true" />
       </method>
     </configuration>
@@ -144,11 +173,19 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< Java_Collections_2/task_4
+        <item itemvalue="Application.com.futurecollars.lesson13.task4.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.TextTest.getPalindromeLengthShouldBeZero" />
+        <item itemvalue="JUnit.TextTest.getPalindromeLength" />
+        <item itemvalue="JUnit.TextTest" />
+=======
      <item itemvalue="JUnit.TextTest.getPalindromeLengthShouldBeZero" />
        <item itemvalue="JUnit.TextTest.getPalindromeLength" />
         <item itemvalue="JUnit.TextTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.com.futurecollars.lesson14.task2.Main" />
+>>>>>>> main
       </list>
     </recent_temporary>
   </component>
