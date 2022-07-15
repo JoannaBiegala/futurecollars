@@ -3,17 +3,16 @@ package com.futurecollars.lesson8.textFormatter;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-
 class ConvertToLowercaseTest {
 
     @Test
-    void formatText() {
+    void shouldBeLowercaseTest() {
         //given
         String text = "Ala ma kota";
         //when
-        String shouldBeLowercaseTest = new ToLowercaseConverter().formatText(text);
+        String expectedLowercaseTest = new ToLowercaseConverter().formatText(text);
         //then
-        Assertions.assertEquals("ala ma kota", shouldBeLowercaseTest);
+        Assertions.assertEquals("ala ma kota", expectedLowercaseTest);
     }
 
 }
