@@ -22,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="Mockito/SalaryCalculator" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -78,7 +78,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-
     <configuration name="com.futurecollars.lesson14.task2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson14.task2.Main" />
       <module name="futurecollars" />
@@ -144,7 +143,7 @@
     </configuration>
     <recent_temporary>
       <list>
-       <item itemvalue="JUnit.TextTest.getPalindromeLengthShouldBeZero" />
+     <item itemvalue="JUnit.TextTest.getPalindromeLengthShouldBeZero" />
         <item itemvalue="JUnit.TextTest.getPalindromeLength" />
         <item itemvalue="JUnit.TextTest" />
         <item itemvalue="Application.Main" />
