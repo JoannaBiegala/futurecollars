@@ -1,26 +1,13 @@
 package com.futurecollars.lesson5.task5;
 
-public class Vehicle {
+public interface Vehicle {
 
-    private boolean engineStarted;
+    void start();
 
-    protected void startEngine() {
-        if (!engineStarted) {
-            engineStarted = true;
-        }
-    }
+    void stop();
 
-    protected void stopEngine() {
-        if (engineStarted) {
-            engineStarted = false;
-        }
-    }
+    boolean isStarted();
 
-    public boolean isEngineStarted() {
-        return engineStarted;
-    }
+    void setStarted(boolean isStarted);
 
-    public void setEngineStarted(boolean engineStarted) {
-        this.engineStarted = engineStarted;
-    }
 }
