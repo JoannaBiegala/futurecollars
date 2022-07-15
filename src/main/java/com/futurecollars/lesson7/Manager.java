@@ -1,29 +1,26 @@
 package com.futurecollars.lesson7;
 
-public class Manager extends BaseEmployee{
+public class Manager extends BaseEmployee {
 
-    private static final int basicSalaryManagerValue = 5000;
-    private static final int bonusValue = 500;
-
-
+    private static final int DEFAULT_SALARY = 5000;
+    private static final int DEFAULT_BONUS = 500;
     private int bonus;
 
     public Manager(String firstName, String lastName, int yearOfEmployment) {
-        super(firstName, lastName, yearOfEmployment);
-        this.basicSalary = basicSalaryManagerValue;
-        this.bonus = bonusValue;
+        super(firstName, lastName, DEFAULT_SALARY, yearOfEmployment);
+        this.bonus = DEFAULT_BONUS;
     }
 
     public Manager(String firstName, String lastName, int basicSalary, int yearOfEmployment) {
         super(firstName, lastName, basicSalary, yearOfEmployment);
-        this.bonus = bonusValue;
+        this.bonus = DEFAULT_BONUS;
 
     }
 
     public Manager(String firstName, String lastName, int basicSalary, int yearOfEmployment, int bonus) {
         super(firstName, lastName, basicSalary, yearOfEmployment);
         this.bonus = bonus;
-     }
+    }
 
     public int getBonus() {
         return bonus;
@@ -36,18 +33,18 @@ public class Manager extends BaseEmployee{
 
     @Override
     public int calculateMonthlySalary() {
-        int receivedBonuses = 12 * getYearsOfWork() * getBonus();
-        return getBasicSalary() + receivedBonuses;
+        return getBasicSalary() + getBonus();
     }
 
     @Override
     public String toString() {
         return "Manager{" +
                 "bonus=" + bonus +
-                ", firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", basicSalary=" + basicSalary +
-                ", yearOfEmployment=" + yearOfEmployment +
+                ", firstName='" + getFirstName() + '\'' +
+                ", lastName='" + getLastName() + '\'' +
+                ", basicSalary=" + getBasicSalary() +
+                ", yearOfEmployment=" + getYearOfEmployment() +
                 '}';
     }
+
 }
