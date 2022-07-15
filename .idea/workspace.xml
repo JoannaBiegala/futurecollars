@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f90c526-1a59-4163-865c-654d66c0d5b4" name="Changes" comment="refactoring code" />
+    <list default="true" id="9f90c526-1a59-4163-865c-654d66c0d5b4" name="Changes" comment="refactoring code">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson16/task4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,7 +61,7 @@
       <recent name="com.futurecollars.lesson7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.futurecollars.lesson14.task2.Main">
+  <component name="RunManager" selected="Application.com.futurecollars.lesson16.task4.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson10.data.Main" />
       <module name="futurecollars" />
@@ -72,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.futurecollars.lesson14.task2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson14.task2.Main" />
+    <configuration name="com.futurecollars.lesson16.task4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson16.task4.Main" />
       <module name="futurecollars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.futurecollars.lesson14.task2.*" />
+          <option name="PATTERN" value="com.futurecollars.lesson16.task4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.futurecollars.lesson16.task4.Main" />
         <item itemvalue="JUnit.TextTest.getPalindromeLengthShouldBeZero" />
         <item itemvalue="JUnit.TextTest.getPalindromeLength" />
         <item itemvalue="JUnit.TextTest" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.com.futurecollars.lesson14.task2.Main" />
       </list>
     </recent_temporary>
   </component>
