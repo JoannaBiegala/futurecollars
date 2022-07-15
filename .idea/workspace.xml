@@ -88,7 +88,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EmployeeTest.shouldRetrieveBaseSalaryWithBonus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="futurecollars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.futurecollars.lesson5.task4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.futurecollars.lesson5.task4" />
+      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson5.task4.EmployeeTest" />
+      <option name="METHOD_NAME" value="shouldRetrieveBaseSalaryWithBonus" />
+      <option name="TEST_OBJECT" value="method" />
+      <configuration name="TextTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -206,6 +218,11 @@
     <MESSAGE value="initial code" />
     <MESSAGE value="refactoring code" />
     <option name="LAST_COMMIT_MESSAGE" value="refactoring code" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/futurecollars$com_futurecollars_lesson10_in_futurecollars.ic" NAME="com.futurecollars.lesson10 in futurecollars Coverage Results" MODIFIED="1655110626321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.futurecollars.lesson10.*</FILTER>
+    </SUITE>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/futurecollars$com_futurecollars_lesson10_in_futurecollars.ic" NAME="com.futurecollars.lesson10 in futurecollars Coverage Results" MODIFIED="1655110626321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
