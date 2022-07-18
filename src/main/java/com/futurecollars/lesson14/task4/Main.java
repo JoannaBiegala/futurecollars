@@ -1,18 +1,15 @@
 package com.futurecollars.lesson14.task4;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.List;
 
 public class Main {
 
     public static void main(String[] args) {
-        Map<String,String> patterns = new HashMap<>();
-        patterns.put("Liczby całkowite: ","\\d+");
-        patterns.put("Liczby zmiennoprzecinkowe: ","\\d+[.]+\\d+");
-        patterns.put("liczby w notacji naukowej: ","\\d+[.]+\\d+\\D+\\d+");
-
-        ValidateNumbers validateNumbers = new ValidateNumbers(patterns);
-        validateNumbers.validateNumbersByPatterns();
+        List<String> numbers = NumbersReader.readNumbersFromFile();
+        NumbersValidator validateNumbers = new NumbersValidator();
+        validateNumbers.validateNumbersByPatternsInteger(numbers);
+        validateNumbers.validateNumbersByPatternsFloat(numbers);
+        validateNumbers.validateNumbersByPatternsScientific(numbers);
     }
 
 }
