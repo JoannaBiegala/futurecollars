@@ -12,26 +12,25 @@ public class CinemaHallService {
     private final List<CinemaHall> cinemaHallList;
 
     public CinemaHallService() {
-        CinemaHall cinemaHallRelax = new CinemaHall("Relax", CinemaHallType.typ4D);
-        CinemaHall cinemaHallHelios = new CinemaHall("Helios", CinemaHallType.typ3D);
-        CinemaHall cinemaHallLuna = new CinemaHall("Luna", CinemaHallType.typ2D);
-        CinemaHall cinemaHallMultikino = new CinemaHall("Multikino", CinemaHallType.typ3D);
-        CinemaHall cinemaHallImax = new CinemaHall("Imax", CinemaHallType.typ4D);
-        CinemaHall cinemaHallCity = new CinemaHall("City", CinemaHallType.typ4D);
-        CinemaHall cinemaHallCapitol = new CinemaHall("Capitol", CinemaHallType.typ3D);
-        CinemaHall cinemaHallBogoria = new CinemaHall("Bogoria", CinemaHallType.typ2D);
-        CinemaHall cinemaHallPerla = new CinemaHall("Perla", CinemaHallType.typ3D);
-        CinemaHall cinemaHallStudio = new CinemaHall("Studio", CinemaHallType.typ4D);
+        CinemaHall cinemaHallRelax = new CinemaHall("Relax", CinemaHallType.TYPE_4D);
+        CinemaHall cinemaHallHelios = new CinemaHall("Helios", CinemaHallType.TYPE_3D);
+        CinemaHall cinemaHallLuna = new CinemaHall("Luna", CinemaHallType.TYPE_2D);
+        CinemaHall cinemaHallMultikino = new CinemaHall("Multikino", CinemaHallType.TYPE_4D);
+        CinemaHall cinemaHallImax = new CinemaHall("Imax", CinemaHallType.TYPE_2D);
+        CinemaHall cinemaHallCity = new CinemaHall("City", CinemaHallType.TYPE_3D);
+        CinemaHall cinemaHallCapitol = new CinemaHall("Capitol", CinemaHallType.TYPE_4D);
+        CinemaHall cinemaHallBogoria = new CinemaHall("Bogoria", CinemaHallType.TYPE_3D);
+        CinemaHall cinemaHallPerla = new CinemaHall("Perla", CinemaHallType.TYPE_3D);
+        CinemaHall cinemaHallStudio = new CinemaHall("Studio", CinemaHallType.TYPE_2D);
         cinemaHallList = new ArrayList<>(List.of(cinemaHallRelax, cinemaHallHelios,
                 cinemaHallLuna, cinemaHallMultikino, cinemaHallImax, cinemaHallCity,
                 cinemaHallCapitol, cinemaHallBogoria, cinemaHallPerla, cinemaHallStudio));
     }
 
-    public void groupByType() {
-        Map<CinemaHallType, Long> counting = cinemaHallList
+    public Map<CinemaHallType, Long> groupByType() {
+        return cinemaHallList
                 .stream()
                 .collect(groupingBy(CinemaHall::getCinemaHallType, Collectors.counting()));
-        System.out.println(counting);
     }
 
 }
