@@ -3,13 +3,13 @@ package com.futurecollars.lesson14.task1;
 public class Contact {
 
     private final String name;
-    private String phoneNumber;
     private final String address;
+    private String phoneNumber;
 
-    public Contact(String name, String phoneNumber, String address) {
-        this.name = name;
+
+    public Contact(String name, String address, String phoneNumber) {
+        this(name, address);
         this.phoneNumber = phoneNumber;
-        this.address = address;
     }
 
     public Contact(String name, String address) {
