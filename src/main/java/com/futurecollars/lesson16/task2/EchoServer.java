@@ -12,23 +12,24 @@ public class EchoServer {
 
     public static void main(String[] args) throws IOException {
         try (ServerSocket serverSocket = new ServerSocket(PORT)) {
-
             System.out.println("Listening on port " + PORT);
+            boolean run = true;
 
-            while (true) {
+            while (run) {
                 try (Socket socket = serverSocket.accept();
-                     InputStreamReader isr = new InputStreamReader(socket.getInputStream());
-                     BufferedReader in = new BufferedReader(isr);
-                     PrintWriter out = new PrintWriter(socket.getOutputStream(), true)
+                     InputStreamReader inputStreamReader = new InputStreamReader(socket.getInputStream());
+                     BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
+                     PrintWriter printWriter = new PrintWriter(socket.getOutputStream(), true)
                 ) {
                     System.out.println("Connection accepted");
                     String line;
                     String upperCaseLine;
-                    while ((line = in.readLine()) != null) {
+                    while ((line = bufferedReader.readLine()) != null) {
                         upperCaseLine = line.toUpperCase();
                         System.out.println("Server received: " + line + ". Sending to Client: " + upperCaseLine);
-                        out.println(upperCaseLine);
+                        printWriter.println(upperCaseLine);
                     }
+                    run = false;
                 }
             }
         }

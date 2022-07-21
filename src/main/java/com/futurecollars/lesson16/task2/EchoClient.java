@@ -12,16 +12,16 @@ public class EchoClient {
 
     public static void main(String[] args) throws IOException {
         try (Socket clientSocket = new Socket(HOSTNAME, PORT);
-             InputStreamReader isr = new InputStreamReader(clientSocket.getInputStream());
-             BufferedReader in = new BufferedReader(isr);
-             PrintWriter out = new PrintWriter(clientSocket.getOutputStream(), true)
+             InputStreamReader inputStreamReader = new InputStreamReader(clientSocket.getInputStream());
+             BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
+             PrintWriter printWriter = new PrintWriter(clientSocket.getOutputStream(), true)
         ) {
             System.out.println("Connected to " + HOSTNAME + " on port " + PORT);
             String data = "Ala ma kota\nZosia ma psa";
             System.out.println("Client is sending to the server:\n" + data);
-            out.println(data);
+            printWriter.println(data);
             String line;
-            while ((line = in.readLine()) != null) {
+            while ((line = bufferedReader.readLine()) != null) {
                 System.out.println("Client received: " + line);
             }
         }
