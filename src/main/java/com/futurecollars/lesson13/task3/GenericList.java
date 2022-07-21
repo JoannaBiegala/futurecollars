@@ -7,24 +7,24 @@ public class GenericList<E> implements OwnList<E> {
 
     List<Object[]> elementsList;
     Object[] elements;
-    private int size = 0;
+    private int sizeCurrentArray = 0;
 
     public GenericList() {
-       elements = new Object[DEFAULT_CAPACITY];
-       elementsList = new ArrayList<>();
+        elements = new Object[DEFAULT_CAPACITY];
+        elementsList = new ArrayList<>();
+        elementsList.add(elements);
     }
 
     @Override
     public boolean add(E o) {
-        if (size() >= DEFAULT_CAPACITY) {
-            Object[] fullArrayOfObjects = elements.clone();
-            elementsList.add(fullArrayOfObjects);
+        if (sizeCurrentArray >= DEFAULT_CAPACITY) {
             elements = new Object[DEFAULT_CAPACITY];
-            elements[0]=o;
-            size = 1;
-         } else {
-            elements[size()] = o;
-            size++;
+            elementsList.add(elements);
+            elements[0] = o;
+            sizeCurrentArray = 1;
+        } else {
+            elements[sizeCurrentArray] = o;
+            sizeCurrentArray++;
         }
         return true;
     }
@@ -32,20 +32,26 @@ public class GenericList<E> implements OwnList<E> {
     @Override
     public E get(int index) {
         if (index > size()) {
-             throw new IndexOutOfBoundsException();
+            throw new IndexOutOfBoundsException();
         } else {
-            return (E) elements[index];
+                int indexInElementsList = index / DEFAULT_CAPACITY;
+                int positionOfElements = index % DEFAULT_CAPACITY;
+                return (E) elementsList.get(indexInElementsList)[positionOfElements];
         }
     }
 
     @Override
     public boolean remove(E o) {
         for (int index = 0; index < size(); index++) {
-            if (elements[index] == o) {
-                if (size() - index >= 0) System.arraycopy(elements, index + 1, elements, index, size() - index);
-                elements[size() - 1] = null;
-                size--;
-                return true;
+            int indexInElementsList = index / DEFAULT_CAPACITY;
+            int positionOfElements = index % DEFAULT_CAPACITY;
+            if (elementsList.get(indexInElementsList)[positionOfElements] == o) {
+               if (indexInElementsList == 0) {
+                   if (size() - index >= 0) System.arraycopy(elements, index + 1, elements, index, size() - index);
+                   elements[size() - 1] = null;
+                   sizeCurrentArray--;
+                   return true;
+               }
             }
 
         }
@@ -54,7 +60,7 @@ public class GenericList<E> implements OwnList<E> {
 
     @Override
     public int size() {
-        return size;
+        return (elementsList.size() - 1) * 10 + sizeCurrentArray;
     }
 
 }
