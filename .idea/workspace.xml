@@ -65,7 +65,7 @@
       <recent name="com.futurecollars.lesson7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.futurecollars.lesson14.task2.Main">
+  <component name="RunManager" selected="Application.com.futurecollars.lesson15.task2.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson9.fizzBuzz.FizzBuzzPlayerTest" />
       <module name="futurecollars" />
@@ -157,9 +157,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="refactoring code" />
-    <MESSAGE value="initial code" />
     <MESSAGE value="refactoring code" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring code" />
+    <MESSAGE value="initial code" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
