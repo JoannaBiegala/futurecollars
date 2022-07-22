@@ -1,4 +1,4 @@
-package com.futurecollars.lesson15.task3;
+package com.futurecollars.lesson16.task3;
 
 import java.io.BufferedReader;
 import java.io.IOException;
