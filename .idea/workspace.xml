@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f90c526-1a59-4163-865c-654d66c0d5b4" name="Changes" comment="refactoring code">
+    <list default="true" id="9f90c526-1a59-4163-865c-654d66c0d5b4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson10/data/FileWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson10/data/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson9/calculator/Addition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson9/calculator/Addition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson9/calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson9/calculator/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson9/calculator/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson9/calculator/Division.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson9/calculator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson9/calculator/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson9/calculator/Multiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson9/calculator/Multiplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson9/calculator/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson9/calculator/Operation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson9/calculator/Subtraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson9/calculator/Subtraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson10/squareRoot/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson10/squareRoot/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson10/squareRoot/SquareRootCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/futurecollars/lesson10/squareRoot/SquareRootCalculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,26 +20,19 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
-        <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="CleanCode/FizzBuzz" />
-      </map>
+      <map />
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectId" id="29eXgpcP2yC7jxtZARBCR4I53q4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -54,6 +45,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/PC/IdeaProjects/futurecollars&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
 }</component>
@@ -62,18 +54,18 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.futurecollars.lesson9.fizzBuzz" />
+      <recent name="com.futurecollars.lesson9.calculator" />
       <recent name="com.futurecollars.lesson9" />
       <recent name="com.futurecollars.lesson7" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson9.calculator.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson10.data.Main" />
       <module name="futurecollars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.futurecollars.lesson9.calculator.*" />
+          <option name="PATTERN" value="com.futurecollars.lesson10.data.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,33 +73,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NameOfTheDayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="futurecollars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.futurecollars.lesson9.calculator.*" />
+          <option name="PATTERN" value="com.futurecollars.lesson8.daysOfWeek.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.futurecollars.lesson9.calculator" />
-      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson9.calculator.CalculatorTest" />
+      <option name="PACKAGE_NAME" value="com.futurecollars.lesson8.daysOfWeek" />
+      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson8.daysOfWeek.NameOfTheDayTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.shouldBeSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="futurecollars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.futurecollars.lesson9.calculator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.futurecollars.lesson9.calculator" />
-      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson9.calculator.CalculatorTest" />
-      <option name="METHOD_NAME" value="shouldBeSum" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="TextTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -147,10 +129,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.CalculatorTest" />
-        <item itemvalue="JUnit.CalculatorTest.shouldBeSum" />
-        <item itemvalue="JUnit.CalculatorTest.shouldBeWrongOption" />
-        <item itemvalue="JUnit.CalculatorTest.shouldBeTerminate" />
+        <item itemvalue="JUnit.TextTest.getPalindromeLengthShouldBeZero" />
+        <item itemvalue="JUnit.TextTest.getPalindromeLength" />
+        <item itemvalue="JUnit.TextTest" />
+        <item itemvalue="JUnit.NameOfTheDayTest" />
       </list>
     </recent_temporary>
   </component>
@@ -184,10 +166,50 @@
       <option name="project" value="LOCAL" />
       <updated>1654263727300</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="refactoring code">
+      <created>1655461801462</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1655461801462</updated>
+    </task>
+    <task id="LOCAL-00005" summary="refactoring code">
+      <created>1655461936425</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1655461936425</updated>
+    </task>
+    <task id="LOCAL-00006" summary="refactoring code">
+      <created>1655977830962</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1655977830962</updated>
+    </task>
+    <task id="LOCAL-00007" summary="refactoring code">
+      <created>1656051067099</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1656051067099</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="refactoring code" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="refactoring code" />
     <option name="LAST_COMMIT_MESSAGE" value="refactoring code" />
