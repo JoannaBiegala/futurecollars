@@ -11,39 +11,29 @@ public class NumbersValidator {
     private final static String PATTERN_SCIENTIFIC = "\\d+[.]+\\d+\\D+\\d+";
 
     public void validateNumbersByPatternsInteger(List<String> numbers) {
-        String numbersByPattern = "";
-        Pattern regex = Pattern.compile(PATTERN_INTEGER);
-        for (String number : numbers) {
-            Matcher matcher = regex.matcher(number);
-            if (matcher.matches()) {
-                numbersByPattern += matcher.group() + ',';
-            }
-        }
+        String numbersByPattern = validateNumbersByPattern(numbers, PATTERN_INTEGER);
         System.out.println("Integers: " + numbersByPattern);
     }
 
     public void validateNumbersByPatternsFloat(List<String> numbers) {
-        String numbersByPattern = "";
-        Pattern regex = Pattern.compile(PATTERN_FLOAT);
-        for (String number : numbers) {
-            Matcher matcher = regex.matcher(number);
-            if (matcher.matches()) {
-                numbersByPattern += matcher.group() + ',';
-            }
-        }
+        String numbersByPattern = validateNumbersByPattern(numbers, PATTERN_FLOAT);
         System.out.println("Floats: " + numbersByPattern);
     }
 
     public void validateNumbersByPatternsScientific(List<String> numbers) {
+        String numbersByPattern = validateNumbersByPattern(numbers, PATTERN_SCIENTIFIC);
+        System.out.println("Numbers in scientific notation: " + numbersByPattern);
+    }
+
+    public String validateNumbersByPattern(List<String> numbers, String pattern) {
         String numbersByPattern = "";
-        Pattern regex = Pattern.compile(PATTERN_SCIENTIFIC);
+        Pattern regex = Pattern.compile(pattern);
         for (String number : numbers) {
             Matcher matcher = regex.matcher(number);
             if (matcher.matches()) {
                 numbersByPattern += matcher.group() + ',';
             }
         }
-        System.out.println("Numbers in scientific notation: " + numbersByPattern);
+        return numbersByPattern;
     }
-
 }
