@@ -94,33 +94,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextTest.getPalindromeLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorTest.shouldBeTerminate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="futurecollars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.futurecollars.lesson9.*" />
+          <option name="PATTERN" value="com.futurecollars.lesson9.calculator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.futurecollars.lesson9" />
-      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson9.TextTest" />
-      <option name="METHOD_NAME" value="getPalindromeLength" />
+      <option name="PACKAGE_NAME" value="com.futurecollars.lesson9.calculator" />
+      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson9.calculator.CalculatorTest" />
+      <option name="METHOD_NAME" value="shouldBeTerminate" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextTest.getPalindromeLengthShouldBeZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorTest.shouldBeWrongOption" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="futurecollars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.futurecollars.lesson9.*" />
+          <option name="PATTERN" value="com.futurecollars.lesson9.calculator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.futurecollars.lesson9" />
-      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson9.TextTest" />
-      <option name="METHOD_NAME" value="getPalindromeLengthShouldBeZero" />
+      <option name="PACKAGE_NAME" value="com.futurecollars.lesson9.calculator" />
+      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson9.calculator.CalculatorTest" />
+      <option name="METHOD_NAME" value="shouldBeWrongOption" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
