@@ -79,8 +79,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.futurecollars.lesson14.task2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson14.task2.Main" />
+    <configuration name="com.futurecollars.lesson15.task1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson15.task1.Main" />
       <module name="futurecollars" />
       <extension name="coverage">
         <pattern>
@@ -140,7 +140,6 @@
       <list>
         <item itemvalue="JUnit.TextTest" />
         <item itemvalue="JUnit.TextTest" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
