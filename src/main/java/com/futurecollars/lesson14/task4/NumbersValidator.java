@@ -11,18 +11,15 @@ public class NumbersValidator {
     private final static String PATTERN_SCIENTIFIC = "\\d+[.]+\\d+\\D+\\d+";
 
     public void validateNumbersByPatternsInteger(List<String> numbers) {
-        String numbersByPattern = validateNumbersByPattern(numbers, PATTERN_INTEGER);
-        System.out.println("Integers: " + numbersByPattern);
+        System.out.println("Integers: " + validateNumbersByPattern(numbers, PATTERN_INTEGER));
     }
 
     public void validateNumbersByPatternsFloat(List<String> numbers) {
-        String numbersByPattern = validateNumbersByPattern(numbers, PATTERN_FLOAT);
-        System.out.println("Floats: " + numbersByPattern);
+        System.out.println("Floats: " + validateNumbersByPattern(numbers, PATTERN_FLOAT));
     }
 
     public void validateNumbersByPatternsScientific(List<String> numbers) {
-        String numbersByPattern = validateNumbersByPattern(numbers, PATTERN_SCIENTIFIC);
-        System.out.println("Numbers in scientific notation: " + numbersByPattern);
+        System.out.println("Numbers in scientific notation: " + validateNumbersByPattern(numbers, PATTERN_SCIENTIFIC));
     }
 
     public String validateNumbersByPattern(List<String> numbers, String pattern) {
@@ -36,4 +33,5 @@ public class NumbersValidator {
         }
         return numbersByPattern;
     }
+
 }
