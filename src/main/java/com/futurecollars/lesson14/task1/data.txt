@@ -1,0 +1,6 @@
+Jan Kowalski;555-44-77;Warszawa ul.Krótka 2
+Adam Nowak;777-88-21;Warszawa ul.Miła 4 m 3
+Adam Malinowski;777-22-21;Warszawa ul.Miła 4 m 3
+Janek Kowalski;555-44-77;Warszawa ul.Krótka 2
+Adamek Nowak;777-88-21;Warszawa ul.Miła 4 m 3
+Bogdan Malinowski;777-22-21;Warszawa ul.Miła 4 m 3
