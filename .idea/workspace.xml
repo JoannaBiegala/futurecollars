@@ -28,6 +28,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map />
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -58,7 +59,7 @@
       <recent name="com.futurecollars.lesson7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WebPageWriter">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson10.data.Main" />
       <module name="futurecollars" />
@@ -72,12 +73,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebPageWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.futurecollars.lesson15.task1.WebPageWriter" />
+    <configuration name="NameOfTheDayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="futurecollars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.futurecollars.lesson15.task1.*" />
+          <option name="PATTERN" value="com.futurecollars.lesson8.daysOfWeek.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,9 +128,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WebPageWriter" />
-        <item itemvalue="JUnit.TextTest" />
-        <item itemvalue="JUnit.TextTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.TextTest.getPalindromeLengthShouldBeZero" />
         <item itemvalue="JUnit.TextTest.getPalindromeLength" />
@@ -216,32 +213,6 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="refactoring code" />
     <option name="LAST_COMMIT_MESSAGE" value="refactoring code" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/futurecollars/lesson11/salary/SalaryCalculator.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/futurecollars/lesson11/salary/SalaryCalculator.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/futurecollars/lesson15/task1/WebPageWriter.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/futurecollars/lesson15/task1/WebPageWriter.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/futurecollars$com_futurecollars_lesson10_in_futurecollars.ic" NAME="com.futurecollars.lesson10 in futurecollars Coverage Results" MODIFIED="1655110626321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
